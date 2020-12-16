@@ -1,0 +1,22 @@
+{
+  "name": "ieee-attendance-bot",
+  "version": "1.0.0",
+  "description": "discord.js bot to keep attendance at ieee virtual meetings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acomanzo/ieee-attendance-bot.git"
+  },
+  "author": "Tony Comanzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acomanzo/ieee-attendance-bot/issues"
+  },
+  "homepage": "https://github.com/acomanzo/ieee-attendance-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
