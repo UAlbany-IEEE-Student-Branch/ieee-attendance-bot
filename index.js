@@ -55,7 +55,7 @@ client.on('message', message => {
             const yyyy = today.getFullYear();
             const eventDate = mm + '/' + dd + '/' + yyyy;
 
-            /* Preprocessing. If a user only has three time stamps,
+            /* Preprocessing. If a user only has odd number of time stamps,
              * add a new one that is the current time, assuming that
              * the user who types !save is typing it at the end 
              * of the meeting. */
@@ -67,15 +67,38 @@ client.on('message', message => {
             }
 
             console.log(eventName + ' ' + eventDate + ':');
-            participants.forEach(entry => console.log(entry));
 
-            for (let entry of participants.entries()) {
-                fs.appendFile('attendance.csv', entry[0] + ', ' + entry[1] + '\n', (err) => {
-                    if (err) {
-                        throw err;
-                    }
-                });
+            let data;
+            if (fs.existsSync('attendance.json')) {
+                console.log('attendance found');
+                data = fs.readFileSync('attendance.json');
+            } else {
+                console.log('attendance DNE, making file...')
+                let obj = '{}';
+                fs.writeFileSync('attendance.json', obj);
+                data = fs.readFileSync('attendance.json');
             }
+            
+            let attendance = JSON.parse(data);
+            for (let entry of participants.entries()) {
+                // entry[0] is the name
+                // entry[1] holds the timestamps
+                console.log(entry[0] + ': ' + entry[1]);
+                if (attendance.hasOwnProperty(entry[0])) {
+                    attendance[entry[0]][eventName] = entry[1];
+                } else {
+                    attendance[entry[0]] = {};
+                    attendance[entry[0]][eventName] = entry[1];
+                }
+            }
+            data = JSON.stringify(attendance, null, 2);
+            fs.writeFile('attendance.json', data, (err) => {
+                if (err){
+                    console.log(err.message);
+                    throw err;
+                }
+            });
+            console.log('Data written to file.');
         } else {
             message.channel.send('Make sure to include an event title when you use save.');
         }
