@@ -16,13 +16,18 @@ client.on('voiceStateUpdate', (oldState, newState) => {
     const oldChannel = oldState.channel;
     const newChannel = newState.channel;
 
-    const name = newState.member.nickname;
+    // since on the ieee discord we like people to use their real names, use nicknames,
+    // but if they don't have a nickname then use their username. 
+    let name = newState.member.nickname;
+    if (name === null || name === 'null') {
+        name = newState.member.user.username;
+    }
     const date = new Date();
     const time = date.getTime();
 
     if (oldChannel === null && newChannel !== null) {
         // user joins a channel
-        if (newChannel.name === 'Presentation') {
+        if (newChannel.name === 'Presentation' ||  newChannel.name === 'Project Development Voice') {
             if (participants.has(name)) {
                 let temp = participants.get(name);
                 temp.push(time);
@@ -47,13 +52,15 @@ client.on('message', message => {
     const command = message.content;
     if (command.includes('!save')) {
         if (command.trim().length > 5) {
-            const eventName = command.substring(5).trim();
-            
+             
             const today = new Date();
             const dd = String(today.getDate()).padStart(2, '0');
             const mm = String(today.getMonth() + 1).padStart(2, '0');
             const yyyy = today.getFullYear();
             const eventDate = mm + '/' + dd + '/' + yyyy;
+
+            // take the name from the user's input but append the date
+            const eventName = command.substring(5).trim() + eventDate;
 
             /* Preprocessing. If a user only has odd number of time stamps,
              * add a new one that is the current time, assuming that
@@ -105,4 +112,4 @@ client.on('message', message => {
     }
 });
 
-client.login('TOKEN');
+client.login('Nzg4NTQ2ODQ0MjkxNjI5MDc3.X9lFeg.Epmz4VykEcRywJB1qzVgsOGu8QY');
