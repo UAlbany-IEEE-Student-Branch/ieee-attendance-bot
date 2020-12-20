@@ -6,7 +6,7 @@ const client = new Discord.Client();
 let participants = new Map();
 
 client.once('ready', () => {
-    console.log('IEEE Attendance Bot is online.');
+    console.log(`${bot.user.username} is online.`);
 });
 
 client.on('voiceStateUpdate', (oldState, newState) => {
@@ -109,6 +109,12 @@ client.on('message', message => {
         } else {
             message.channel.send('Make sure to include an event title when you use save.');
         }
+    }
+
+    if (command.includes(!start)) {
+
+        // clear the participants list, prepping the bot for logging the next event. 
+        participants.clear();
     }
 });
 
