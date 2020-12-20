@@ -6,7 +6,7 @@ const client = new Discord.Client();
 let participants = new Map();
 
 client.once('ready', () => {
-    console.log(`${bot.user.username} is online.`);
+    console.log(`${client.user.username} is online.`);
 });
 
 client.on('voiceStateUpdate', (oldState, newState) => {
