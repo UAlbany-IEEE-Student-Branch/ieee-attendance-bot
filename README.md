@@ -18,7 +18,7 @@ Since the bot is on 24/7, just use !start to prime the bot for taking a new list
 If you'd like to contribute, please open an issue in this repository, fork this project, make a new branch on your fork, and then make a pull request. 
 
 ### Todo
-- ~~convert to 24/7 bot~~
+- ~~connect the bot to heroku for when it becomes a 24/7 bot~~
 - ~~make a start command so that anyone can tell the bot to start logging~~
 - ~~have the !start/!save command clear the list of participants if this becomes a 24/7 bot~~
 - have the bot log everyone who is already in certain voice channels be added to the attendance in case the bots starts late
@@ -26,3 +26,5 @@ If you'd like to contribute, please open an issue in this repository, fork this 
 - let the start command take an optional parameter that is a time that represents the start of the meeting in case the bot starts late
 - make a command that will show a preview of the attendance
 - connect the bot to a database to store the attendance so that anyone can use the bot, or find a way to merge the attendances that are on two different local computers
+- find a way for a heroku-hosted bot to access the database to update the attendance
+- turn on  automatic deploys for the bot on heroku
