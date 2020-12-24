@@ -142,44 +142,50 @@ client.on('message', message => {
 
         if (command.includes('!start')) {
 
-            // clear the participants list, prepping the bot for logging the next event. 
-            participants.clear();
+            // just represents whether the command was ok or not
+            let commandValid = true;
+           
+            let timestamp;
+            if (command.trim().length > 6) {
 
-            // get a list of voice channels
-            const voiceChannels = message.guild.channels.cache.filter((channel) => channel.type === 'voice');
-            
-            // add participants to the list if they're already in the voice channel
-            for (const [id, voiceChannel] of voiceChannels) {
-                switch (voiceChannel.name) {
-                    case 'Presentation':
-                    case 'Project Development Voice':
-                        if (voiceChannel.members.size >= 1) {
-                            voiceChannel.members.map((member, userId) => {
-                                let name = member.nickname;
-                                if (name === null || name === 'null') {
-                                    name = member.user.username;
-                                }
+                // if the user includes the starting time, use that for the timestamp
+                timestamp = Date.parse(command.substring(6).trim());
+                if (isNaN(timestamp) || timestamp < 0) {
+                    message.channel.send('Please retry. Incorrect date format.\nExample: !start 01 Jan 1970 23:59:59 EST');
+                    commandValid = false;
+                }
+            } else {
 
-                                let timestamp;
-                                if (command.trim().length > 6) {
+                // if the user didn't include a date, just use right now  as the starting time
+                const date = new Date();
+                timestamp = date.getTime();
+            }
 
-                                    // if the user includes the starting time, use that for the timestamp
-                                    timestamp = Date.parse(command.substring(6).trim());
-                                    if (isNaN(timestamp) || timestamp < 0) {
-                                        message.channel.send('Please retry. Incorrect date format.\nExample: !start 01 Jan 1970 23:59:59 EST');
+            if (commandValid) {
+
+                // clear the participants list, prepping the bot for logging the next event. 
+                participants.clear();
+
+                // get a list of voice channels
+                const voiceChannels = message.guild.channels.cache.filter((channel) => channel.type === 'voice');
+                
+                // add participants to the list if they're already in the voice channel
+                for (const [id, voiceChannel] of voiceChannels) {
+                    switch (voiceChannel.name) {
+                        case 'Presentation':
+                        case 'Project Development Voice':
+                            if (voiceChannel.members.size >= 1) {
+                                voiceChannel.members.map((member, userId) => {
+                                    let name = member.nickname;
+                                    if (name === null || name === 'null') {
+                                        name = member.user.username;
                                     }
-                                } else {
 
-                                    const date = new Date();
-                                    timestamp = date.getTime();
-                                }
-
-                                if (!isNaN(timestamp) && timestamp > 0) {
                                     addMemberToParticipants(name, timestamp);
-                                }
-                            });
-                        }
-                        break;
+                                });
+                            }
+                            break;
+                    }
                 }
             }
         }
