@@ -1,9 +1,23 @@
 const Discord = require('discord.js');
 const fs = require('fs');
+const { token } = require('./config.json');
 
 const client = new Discord.Client();
 
+// a map containing 
 let participants = new Map();
+
+function addMemberToParticipants(name, timestamp) {
+    if (participants.has(name)) {
+        // update the timestamps the user maps to
+        let oldEntry = participants.get(name);
+        oldEntry.push(timestamp);
+        participants.set(name, oldEntry);
+    } else {
+        // add a new entry for this user
+        participants.set(name, [timestamp]);
+    }
+}
 
 client.once('ready', () => {
     console.log(`${client.user.username} is online.`);
@@ -23,25 +37,17 @@ client.on('voiceStateUpdate', (oldState, newState) => {
         name = newState.member.user.username;
     }
     const date = new Date();
-    const time = date.getTime();
+    const timestamp = date.getTime();
 
     if (oldChannel === null && newChannel !== null) {
         // user joins a channel
         if (newChannel.name === 'Presentation' ||  newChannel.name === 'Project Development Voice') {
-            if (participants.has(name)) {
-                let temp = participants.get(name);
-                temp.push(time);
-                participants.set(name, temp);
-            } else {
-                participants.set(name, [time]);
-            }
+            addMemberToParticipants(name, timestamp);
         }
     } else if (newChannel === null) {
         // user leaves a voice channel 
         if (oldChannel.name === 'Presentation') {
-            let temp = participants.get(name);
-            temp.push(time);
-            participants.set(name, temp);
+            addMemberToParticipants(name, timestamp);
         }
     } else {
         // user switched channels 
@@ -50,72 +56,134 @@ client.on('voiceStateUpdate', (oldState, newState) => {
 
 client.on('message', message => {
     const command = message.content;
-    if (command.includes('!save')) {
-        if (command.trim().length > 5) {
-             
-            const today = new Date();
-            const dd = String(today.getDate()).padStart(2, '0');
-            const mm = String(today.getMonth() + 1).padStart(2, '0');
-            const yyyy = today.getFullYear();
-            const eventDate = mm + '/' + dd + '/' + yyyy;
 
-            // take the name from the user's input but append the date
-            const eventName = command.substring(5).trim() + eventDate;
+    // make sure the message is in the bot-spam channel and 
+    // that the bot doesn't react to its own messages
+    if (message.channel.id === '685315837015752723' && message.author.id !== '788546844291629077') {
 
-            /* Preprocessing. If a user only has odd number of time stamps,
-             * add a new one that is the current time, assuming that
-             * the user who types !save is typing it at the end 
-             * of the meeting. */
-            for (let name of participants.keys()) {
-                let temp = participants.get(name);
-                if (temp.length % 2 != 0) {
-                    temp.push(today.getTime());
+        if (command.includes('!save')) {
+        
+            // make sure there is an event name with the command
+            if (command.trim().length > 5) {
+                
+                const today = new Date();
+                const dd = String(today.getDate()).padStart(2, '0');
+                const mm = String(today.getMonth() + 1).padStart(2, '0');
+                const yyyy = today.getFullYear();
+                const eventDate = mm + '/' + dd + '/' + yyyy;
+
+                // take the name from the user's input but append the date
+                const eventName = command.substring(5).trim() + ' ' + eventDate;
+
+                /* 
+                 * Preprocessing: if a user only has an odd number of time stamps,
+                 * add a new one that is the time now, assuming that
+                 * the user who types !save is typing it at the end 
+                 * of the meeting. 
+                 * */
+                for (let name of participants.keys()) {
+                    let temp = participants.get(name);
+                    if (temp.length % 2 != 0) {
+                        temp.push(today.getTime());
+                    }
                 }
-            }
 
-            console.log(eventName + ' ' + eventDate + ':');
+                console.log(eventName + ' ' + eventDate + ':');
 
-            let data;
-            if (fs.existsSync('attendance.json')) {
-                console.log('attendance found');
-                data = fs.readFileSync('attendance.json');
-            } else {
-                console.log('attendance DNE, making file...')
-                let obj = '{}';
-                fs.writeFileSync('attendance.json', obj);
-                data = fs.readFileSync('attendance.json');
-            }
-            
-            let attendance = JSON.parse(data);
-            for (let entry of participants.entries()) {
-                // entry[0] is the name
-                // entry[1] holds the timestamps
-                console.log(entry[0] + ': ' + entry[1]);
-                if (attendance.hasOwnProperty(entry[0])) {
-                    attendance[entry[0]][eventName] = entry[1];
+                let data;
+                if (fs.existsSync('attendance.json')) {
+                    console.log('attendance found');
+                    data = fs.readFileSync('attendance.json');
                 } else {
-                    attendance[entry[0]] = {};
-                    attendance[entry[0]][eventName] = entry[1];
+                    console.log('attendance DNE, making file...')
+                    let obj = '{}';
+                    fs.writeFileSync('attendance.json', obj);
+                    data = fs.readFileSync('attendance.json');
+                }
+                
+                let attendance = JSON.parse(data);
+                for (let entry of participants.entries()) {
+                    // entry[0] is the name
+                    // entry[1] holds the timestamps
+                    console.log(entry[0] + ': ' + entry[1]);
+
+                    // check if the attendance already has this member
+                    if (attendance.hasOwnProperty(entry[0])) {
+                        attendance[entry[0]][eventName] = entry[1];
+                    } else {
+
+                        // make a new entry for this member that is an object
+                        // that maps event names to timestamps
+                        attendance[entry[0]] = {};
+                        attendance[entry[0]][eventName] = entry[1];
+                    }
+                }
+                data = JSON.stringify(attendance, null, 2);
+                fs.writeFile('attendance.json', data, (err) => {
+                    if (err){
+                        message.channel.send(`Error writing to attendance: ${err.message}`);
+                        console.log(err.message);
+                        throw err;
+                    }
+                });
+
+                message.channel.send('Data written to file.');
+
+                message.author.send('Here you go, buddy: ', {
+                    files: [
+                        './attendance.json'
+                    ]
+                });
+                message.channel.send(`Attendance sent to ${message.author.username}`);
+            } else {
+                message.channel.send('Please retry. Make sure to include an event title when you use save.\nUsage: !save <event title>');
+            }
+        }
+
+        if (command.includes('!start')) {
+
+            // clear the participants list, prepping the bot for logging the next event. 
+            participants.clear();
+
+            // get a list of voice channels
+            const voiceChannels = message.guild.channels.cache.filter((channel) => channel.type === 'voice');
+            
+            // add participants to the list if they're already in the voice channel
+            for (const [id, voiceChannel] of voiceChannels) {
+                switch (voiceChannel.name) {
+                    case 'Presentation':
+                    case 'Project Development Voice':
+                        if (voiceChannel.members.size >= 1) {
+                            voiceChannel.members.map((member, userId) => {
+                                let name = member.nickname;
+                                if (name === null || name === 'null') {
+                                    name = member.user.username;
+                                }
+
+                                let timestamp;
+                                if (command.trim().length > 6) {
+
+                                    // if the user includes the starting time, use that for the timestamp
+                                    timestamp = Date.parse(command.substring(6).trim());
+                                    if (isNaN(timestamp) || timestamp < 0) {
+                                        message.channel.send('Please retry. Incorrect date format.\nExample: !start 01 Jan 1970 23:59:59 EST');
+                                    }
+                                } else {
+
+                                    const date = new Date();
+                                    timestamp = date.getTime();
+                                }
+
+                                if (!isNaN(timestamp) && timestamp > 0) {
+                                    addMemberToParticipants(name, timestamp);
+                                }
+                            });
+                        }
+                        break;
                 }
             }
-            data = JSON.stringify(attendance, null, 2);
-            fs.writeFile('attendance.json', data, (err) => {
-                if (err){
-                    console.log(err.message);
-                    throw err;
-                }
-            });
-            console.log('Data written to file.');
-        } else {
-            message.channel.send('Make sure to include an event title when you use save.');
         }
-    }
-
-    if (command.includes(!start)) {
-
-        // clear the participants list, prepping the bot for logging the next event. 
-        participants.clear();
     }
 });
 
-client.login(process.env.token);
+client.login(token);
