@@ -30,6 +30,9 @@ Example:
 ```!start 01 Jan 1970 23:59:59 EST```
 This format is pretty strict, so don't stray away from it too much or else it can cause errors and inconsistencies in the attendance. 
 
+### Using !get
+Simply type !get in the bot-spam channel and the bot will send the attendance to you.
+
 ## How to Contribute
 If you'd like to contribute, please open an issue in this repository, fork this project, make a new branch on your fork, and then make a pull request. 
 
@@ -42,6 +45,6 @@ If you'd like to contribute, please open an issue in this repository, fork this 
 - make a command that will show a preview of the attendance
 - Use the user id instead of the nickname/username in case the user switches their username or nickname (would also need to make sure that discord js can get a user's nickname/username based on their id)
 - ~~switch from heroku to aws, use aws to hold the attendance file and bot~~
-- add a command to the bot that dms the attendance to the user who queried it
+- ~~add a command to the bot that dms the attendance to the user who queried it~~
 - ~~make it so that the bot commands only work in bot spam~~
 - add logs and timestamps to make it easier to investigate errors

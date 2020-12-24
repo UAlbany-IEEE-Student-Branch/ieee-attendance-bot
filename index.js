@@ -19,6 +19,15 @@ function addMemberToParticipants(name, timestamp) {
     }
 }
 
+function sendAttendanceToMessageAuthor(message) {
+    message.author.send('Here you go, buddy: ', {
+        files: [
+            './attendance.json'
+        ]
+    });
+    message.channel.send(`Attendance sent to ${message.author.username}`);
+}
+
 client.once('ready', () => {
     console.log(`${client.user.username} is online.`);
 });
@@ -129,12 +138,7 @@ client.on('message', message => {
 
                 message.channel.send('Data written to file.');
 
-                message.author.send('Here you go, buddy: ', {
-                    files: [
-                        './attendance.json'
-                    ]
-                });
-                message.channel.send(`Attendance sent to ${message.author.username}`);
+                sendAttendanceToMessageAuthor(message);
             } else {
                 message.channel.send('Please retry. Make sure to include an event title when you use save.\nUsage: !save <event title>');
             }
@@ -187,6 +191,14 @@ client.on('message', message => {
                             break;
                     }
                 }
+            }
+        }
+
+        if (command === '!get') {
+            if (fs.existsSync('attendance.json')) {
+                sendAttendanceToMessageAuthor(message);
+            } else {
+                message.channel.send("Couldn't find attendance.");
             }
         }
     }
