@@ -7,6 +7,16 @@ If you're trying to use this on your local computer, just clone the repository a
 ## Usage
 To test, just type ```node index.js```. Since this is a 24/7 bot, you won't need to worry about this. If you're testing on your local machine then you should make sure that the deployed bot is off. 
 
+Since it's a 24/7 bot you shouldn't have to worry about starting the bot. But, if for some reason AWS goes down or something, here is how to start it: 
+```pm2 start index.js```
+If you want to stop the bot: 
+```pm2 stop <id>```
+(if this is the only thing running with pm2 then you'll probably use 0 for the id, so ```pm2 stop 0```)
+If you want to look at logs: 
+```pm2 logs <id>```
+(again, proabably will use 0 for id)
+pm2 just runs the bot as a background process, so that way you still have control over the file system while the bot is running. 
+
 ### Using !save
 When you use !save to save the attendace, the bot expects you to also include a name for the event. For example:
 ```!save Monday Coding Night```
@@ -32,3 +42,4 @@ If you'd like to contribute, please open an issue in this repository, fork this 
 - ~~switch from heroku to aws, use aws to hold the attendance file and bot~~
 - add a command to the bot that dms the attendance to the user who queried it
 - ~~make it so that the bot commands only work in bot spam~~
+- add logs and timestamps in case of errors
