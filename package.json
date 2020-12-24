@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/acomanzo/ieee-attendance-bot#readme",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "pm2": "^4.5.1"
   }
 }
