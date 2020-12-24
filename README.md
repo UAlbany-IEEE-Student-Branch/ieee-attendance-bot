@@ -20,7 +20,9 @@ pm2 just runs the bot as a background process, so that way you still have contro
 ### Using !save
 When you use !save to save the attendace, the bot expects you to also include a name for the event. For example:
 ```!save Monday Coding Night```
-There's no need to include a date as the bot will figure it out. You can use !save two or more times in a row if you accidentally called it too early. The bot will dm the attendance to the user that used !save. 
+There's no need to include a date as the bot will figure it out. The bot will dm the attendance to the user that used !save. 
+#### Warning
+Try not to use !save two or more times in a row. It can make bad  things happen... say a user enters once and you use  !save. Now the user has  two timestamps (ok, good). Then what if  that  user leaves and you use !save again? Now the attendance has incorrect timestamps. The timestamps would show that the user joined and left, and then joined and left. But in reality, the user joined, then the bot added a timestamp, then the user left, and the bot added another timestamp. 
 
 ### Using !start
 Since the bot is on 24/7, just use !start to prime the bot for taking a new list of participants at an event. !start will clear the list of the previous event, check if users are already in a workshop voice channel (Presentation and Project Development Voice), and take an optional parameter that specifies the start of the meeting. If the optional parameter isn't given, then the bot assumes that the start of the meeting was when the user used !start. 
@@ -42,4 +44,4 @@ If you'd like to contribute, please open an issue in this repository, fork this 
 - ~~switch from heroku to aws, use aws to hold the attendance file and bot~~
 - add a command to the bot that dms the attendance to the user who queried it
 - ~~make it so that the bot commands only work in bot spam~~
-- add logs and timestamps in case of errors
+- add logs and timestamps to make it easier to investigate errors
