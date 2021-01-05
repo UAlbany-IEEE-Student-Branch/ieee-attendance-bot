@@ -4,8 +4,12 @@ const { token } = require('./config.json');
 
 const client = new Discord.Client();
 
-// a map containing 
+// a map containing participants in a meeting and their entry
+// and exit timestamps
 let participants = new Map();
+
+// a list of voice channels to watch for activity 
+const listenedVoiceChannels = ['Presentation', 'Project Development Voice', 'Coding Night'];
 
 function addMemberToParticipants(name, timestamp) {
     if (participants.has(name)) {
@@ -50,12 +54,12 @@ client.on('voiceStateUpdate', (oldState, newState) => {
 
     if (oldChannel === null && newChannel !== null) {
         // user joins a channel
-        if (newChannel.name === 'Presentation' ||  newChannel.name === 'Project Development Voice') {
+        if (listenedVoiceChannels.includes(newChannel.name)) {
             addMemberToParticipants(name, timestamp);
         }
     } else if (newChannel === null) {
         // user leaves a voice channel 
-        if (oldChannel.name === 'Presentation') {
+        if (listenedVoiceChannels.includes(newChannel.name)) {
             addMemberToParticipants(name, timestamp);
         }
     } else {
@@ -171,26 +175,25 @@ client.on('message', message => {
                 participants.clear();
 
                 // get a list of voice channels
-                const voiceChannels = message.guild.channels.cache.filter((channel) => channel.type === 'voice');
+                const allServerVoiceChannels = message.guild.channels.cache.filter((channel) => channel.type === 'voice');
                 
                 // add participants to the list if they're already in the voice channel
-                for (const [id, voiceChannel] of voiceChannels) {
-                    switch (voiceChannel.name) {
-                        case 'Presentation':
-                        case 'Project Development Voice':
-                            if (voiceChannel.members.size >= 1) {
-                                voiceChannel.members.map((member, userId) => {
-                                    let name = member.nickname;
-                                    if (name === null || name === 'null') {
-                                        name = member.user.username;
-                                    }
+                for (const [id, voiceChannel] of allServerVoiceChannels) {
+                    if (listenedVoiceChannels.includes(voiceChannel.name)) {
+                        if (voiceChannel.members.size >= 1) {
+                            voiceChannel.members.map((member, userId) => {
+                                let name = member.nickname;
+                                if (name === null || name === 'null') {
+                                    name = member.user.username;
+                                }
 
-                                    addMemberToParticipants(name, timestamp);
-                                });
-                            }
-                            break;
+                                addMemberToParticipants(name, timestamp);
+                            });
+                        }
                     }
                 }
+
+                message.channel.send('Listening for attendance...');
             }
         }
 
