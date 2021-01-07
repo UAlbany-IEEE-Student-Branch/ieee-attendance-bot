@@ -59,7 +59,7 @@ client.on('voiceStateUpdate', (oldState, newState) => {
         }
     } else if (newChannel === null) {
         // user leaves a voice channel 
-        if (listenedVoiceChannels.includes(newChannel.name)) {
+        if (listenedVoiceChannels.includes(oldChannel.name)) {
             addMemberToParticipants(name, timestamp);
         }
     } else {
