@@ -9,7 +9,7 @@ const client = new Discord.Client();
 let participants = new Map();
 
 // a list of voice channels to watch for activity 
-const listenedVoiceChannels = ['Presentation', 'Project Development Voice', 'Coding Night'];
+const listenedVoiceChannels = ['Presentation', 'Project Development Voice', 'Coding Night', 'Officers Voice', 'Voice 1'];
 
 function addMemberToParticipants(name, timestamp) {
     if (participants.has(name)) {
@@ -158,6 +158,8 @@ client.on('message', message => {
 
                 // if the user includes the starting time, use that for the timestamp
                 timestamp = Date.parse(command.substring(6).trim());
+
+                // just do a simple error check/input check, dunno how to make this more robust
                 if (isNaN(timestamp) || timestamp < 0) {
                     message.channel.send('Please retry. Incorrect date format.\nExample: !start 01 Jan 1970 23:59:59 EST');
                     commandValid = false;
