@@ -18,7 +18,7 @@ Since it's a 24/7 bot you shouldn't have to worry about starting the bot. But, i
 
 pm2 just runs the bot as a background process, so that way you still have control over the file system while the bot is running. 
 
-When you're using the bot on the Discord server, you'll want to use `!start` before the beginning of an event and then `!save` after it's over. If you forget to use `!start` before the beginning, you can specify a starting timestamp ([see Using `!start`](#using-!start))
+When you're using the bot on the Discord server, you'll want to use `!start` before the beginning of an event and then `!save` after it's over. If you forget to use `!start` before the beginning, you can specify a starting timestamp ([see Using `!start`](#using-`!start`))
 
 ### Using `!save`
 When you use !save to save the attendace, the bot expects you to also include a name for the event. 
