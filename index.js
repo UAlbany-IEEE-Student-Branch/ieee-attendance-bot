@@ -9,10 +9,22 @@ const client = new Discord.Client();
 let participants = new Map();
 
 // a list of voice channels to watch for activity 
-const listenedVoiceChannels = ['Presentation', 'Project Development Voice', 'Coding Night', 'Officers Voice', 'Voice 1'];
+const listenedVoiceChannels = [
+    'Presentation', 
+    'Project Development Voice', 
+    'Coding Night', 
+    'Officers Voice', 
+    'Voice 1', 
+    'Workshop',
+];
 
 // users that the bot listens to
-let whitelistedUsers = ["346836689529995274", '274354935036903424', '553018047657541642', '171088701814865930', '572111048656683009'];
+let whitelistedUsers = [
+    "346836689529995274",
+    '587621683448512521', 
+    '744893752505663534', 
+    '419203179322933249',
+];
 
 // text channels that the bot will listen to 
 const whitelistedTextChannels = ["685315837015752723"];
@@ -243,6 +255,11 @@ client.on('voiceStateUpdate', (oldState, newState) => {
         }
     } else {
         // user switched channels 
+        // don't add a user only if the old channel AND the new channel are in the listened channels 
+        // used demorgans here: !(oldChannel && newChannel)
+        if (!listenedVoiceChannels.includes(oldChannel.name) || !listenedVoiceChannels.includes(newChannel.name)) {
+            addMemberToParticipants(newState.member, timestamp);
+        }
     }
 });
 
