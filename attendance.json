@@ -1,0 +1,5341 @@
+{
+  "346836689529995274": {
+    "nicknames": [
+      "Tony Comanzo",
+      "Tony Comanzo (he/him)"
+    ],
+    "usernames": [
+      "runningOctopus"
+    ],
+    "attendance": {
+      "Monday Coding Night 12/29/2020": [
+        1609203543228,
+        1609207786472
+      ],
+      "WSPI 01/01/2021": [
+        1609549302292,
+        1609556542307
+      ],
+      "test 01/05/2021": [
+        1609860229110,
+        1609860235682
+      ],
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610067875181,
+        1610070752510
+      ],
+      "Monday Coding Night 01/18/2021": [
+        1611017977356,
+        1611022590247
+      ],
+      "Monday Coding Night 02/02/2021": [
+        1612227630658,
+        1612232302166
+      ],
+      "WSPI 02/06/2021": [
+        1612573264706,
+        1612582070910
+      ],
+      "voice-test 02/10/2021": [
+        1612918323597,
+        1612918327701,
+        1612918330328,
+        1612918332250
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918846536,
+        1612926496825
+      ],
+      "Side Project Development Night 02/16/2021": [
+        1613178000313,
+        1613185319271
+      ],
+      "Monday Coding Night 02/16/2021": [
+        1613437376009,
+        1613440710126,
+        1613443960714,
+        1613443982552
+      ],
+      "Finance Meeting 02/17/2021": [
+        1612314000000,
+        1613533206113
+      ],
+      "Communications Meeting 02/18/2021": [
+        1613611112151,
+        1613612481730
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696744767,
+        1613701615744,
+        1613703201832,
+        1613703556419
+      ],
+      "last test 02/22/2021": [
+        1613964799002,
+        1613964802295
+      ],
+      "Monday Coding Night 02/23/2021": [
+        1614042189167,
+        1614046344898
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214845342,
+        1614220928100
+      ],
+      "Side Project Development Night 02/27/2021": [
+        1614387645542,
+        1614396590749
+      ],
+      "Monday Coding Night 03/02/2021": [
+        1614647201013,
+        1614650402730
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733291866,
+        1614739308755
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906016504,
+        1614911252316
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614992431808,
+        1615000090560
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424603361,
+        1615434397324
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615939216760,
+        1615941610900
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112005267,
+        1616118185711
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630523582,
+        1616635076794
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148825371,
+        1617155949732
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321718448,
+        1617326197668,
+        1617326204114,
+        1617328922263
+      ],
+      "Professional Development Night 04/06/2021": [
+        1617667273761,
+        1617671263770
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926382071,
+        1617932987116,
+        1617932989364,
+        1617933299024
+      ],
+      "Side Project Development Night 04/10/2021": [
+        1618012829635,
+        1618020235683
+      ],
+      "botch 04/12/2021": [
+        1618012829635,
+        1618020235683
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444949351,
+        1618448040320,
+        1618448041507,
+        1618451323992
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531516863,
+        1618535420238
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618618819536,
+        1618620936982,
+        1618622485188,
+        1618623007423
+      ],
+      "Professional Development Night 04/20/2021": [
+        1618881610783,
+        1618884823220
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618963239682,
+        1618968187048
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049614454,
+        1619053369394
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619567988287,
+        1619570506046
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619741309713,
+        1619748572974
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620087295277,
+        1620091901155,
+        1620091902831,
+        1620092993055
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259459128,
+        1620267059270
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691270078,
+        1620694837895,
+        1620695727536,
+        1620696067849,
+        1620696260025,
+        1620696364883
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387657877
+      ],
+      "Professional Development Night 06/15/2021": [
+        1623675600000,
+        1623718932197
+      ],
+      "EBoard Meeting 08/12/2021": [
+        1628721187646,
+        1628730100305
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630109593632,
+        1630112623742,
+        1630116786804,
+        1630119114531
+      ],
+      "Side Project Development Night 09/04/2021": [
+        1630713419502,
+        1630716078396,
+        1630717200340,
+        1630718703276
+      ],
+      "Professional Development Night 09/10/2021": [
+        1630972872664,
+        1630978241834,
+        1631145642294,
+        1631150100528,
+        1631231908698,
+        1631232632134
+      ],
+      "test 09/10/2021": [
+        104399000,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631235600000,
+        1631235479179
+      ]
+    }
+  },
+  "553018047657541642": {
+    "nicknames": [
+      "Robin Kim",
+      "Robin"
+    ],
+    "usernames": [
+      "login"
+    ],
+    "attendance": {
+      "Monday Coding Night 12/29/2020": [
+        1609203540729,
+        1609207788588
+      ],
+      "Monday Coding Night 01/12/2021": [
+        1610413200000,
+        1610415985754
+      ],
+      "Monday Coding Night 01/26/2021": [
+        1611622803811,
+        1611627940829
+      ],
+      "Monday Coding Night 02/02/2021": [
+        1612227574175,
+        1612232297810
+      ],
+      "Monday Coding Night 02/09/2021": [
+        1612832397361,
+        1612836497321
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918773206,
+        1612926496590
+      ],
+      "Side Project Development Night 02/16/2021": [
+        1613178140201,
+        1613186429082
+      ],
+      "Monday Coding Night 02/16/2021": [
+        1613437118889,
+        1613443738287
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696372735,
+        1613701616938
+      ],
+      "Monday Coding Night 02/23/2021": [
+        1614041976183,
+        1614046343941
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214700434,
+        1614220924981
+      ],
+      "Monday Coding Night 03/02/2021": [
+        1614646741265,
+        1614653046611
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733199471,
+        1614739308556
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906051916,
+        1614911254128
+      ],
+      "Professional Development Night 03/09/2021": [
+        1615251596735,
+        1615256222643
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424472337,
+        1615432384641
+      ],
+      "Professional Development Night 03/16/2021": [
+        1615852798818,
+        1615857108064
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615939218914,
+        1615941612336
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112242698,
+        1616118095157
+      ],
+      "Professional Development Night 03/23/2021": [
+        1616457612849,
+        1616463361241
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616631117668,
+        1616635080881
+      ],
+      "Professional Development Night 03/30/2021": [
+        1617062538517,
+        1617067511766
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617149433538,
+        1617155956533
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321668750,
+        1617328919451
+      ],
+      "Professional Development Night 04/06/2021": [
+        1617667165238,
+        1617671261202
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926472558,
+        1617933286850
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531070947,
+        1618535417252
+      ],
+      "Professional Development Night 04/20/2021": [
+        1618876761933,
+        1618884788963
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618966805616,
+        1618968195641
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619050532564,
+        1619053371369
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619136203047,
+        1619140490628
+      ],
+      "Professional Development Night 04/27/2021": [
+        1619484383939,
+        1619485974326
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619568881148,
+        1619570508965
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620086413957,
+        1620092995601
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691220461,
+        1620698634252
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387452552
+      ]
+    }
+  },
+  "171088701814865930": {
+    "nicknames": [
+      "Connor Walsh"
+    ],
+    "usernames": [
+      "Syco"
+    ],
+    "attendance": {
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610067727720,
+        1610079746276
+      ],
+      "WSPI 01/16/2021": [
+        1610758775995,
+        1610762171365
+      ],
+      "Monday Coding Night 01/18/2021": [
+        1611018037335,
+        1611022584553
+      ],
+      "Monday Coding Night 02/02/2021": [
+        1612227652564,
+        1612232294741
+      ],
+      "WSPI 02/06/2021": [
+        1612573356984,
+        1612582067792
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918681663,
+        1612926493767
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696240731,
+        1613701615058,
+        1613701621045,
+        1613703555667
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214805081,
+        1614220917457
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733241487,
+        1614739274686
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906182603,
+        1614911249804
+      ],
+      "Professional Development Night 03/16/2021": [
+        1615852779322,
+        1615857104194
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615939228893,
+        1615941608812
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112018650,
+        1616115135660
+      ],
+      "Professional Development Night 03/23/2021": [
+        1616458043178,
+        1616463356860
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630428246,
+        1616635071746
+      ],
+      "Professional Development Night 03/30/2021": [
+        1617062396258,
+        1617067507969
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148825371,
+        1617155947922
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321520181,
+        1617328913407
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444825197,
+        1618448064455
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618530913163,
+        1618535416477
+      ],
+      "Professional Development Night 04/20/2021": [
+        1618876829870,
+        1618884552746
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618963273743,
+        1618968185586
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620086367185,
+        1620092991316
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259426008,
+        1620267056665
+      ],
+      "Research Talk 05/07/2021": [
+        1620345721810,
+        1620347732192
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691123244,
+        1620698632764,
+        1620698719782,
+        1620699407929,
+        1620702013508,
+        1620704299627
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387449908
+      ]
+    }
+  },
+  "274354935036903424": {
+    "nicknames": [
+      "James Oswald",
+      "Emperor Oswald"
+    ],
+    "usernames": [
+      "TenebrisLux"
+    ],
+    "attendance": {
+      "Monday Coding Night 12/29/2020": [
+        1609203562275,
+        1609207782132
+      ],
+      "WSPI 01/01/2021": [
+        1609549275562,
+        1609556542307
+      ],
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610067627948,
+        1610079747697
+      ],
+      "WSPI 01/16/2021": [
+        1610758773632,
+        1610762171097
+      ],
+      "Monday Coding Night 01/18/2021": [
+        1611017884249,
+        1611022584424
+      ],
+      "WSPI 01/23/2021": [
+        1611363546992,
+        1611363827681
+      ],
+      "Monday Coding Night 01/26/2021": [
+        1611622782382,
+        1611627936758
+      ],
+      "Monday Coding Night 02/02/2021": [
+        1612227575515,
+        1612232298121
+      ],
+      "WSPI 02/06/2021": [
+        1612573167884,
+        1612578497484,
+        1612578538494,
+        1612582390837
+      ],
+      "Monday Coding Night 02/09/2021": [
+        1612832378512,
+        1612836495218
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918800991,
+        1612926495213
+      ],
+      "Side Project Development Night 02/16/2021": [
+        1613177970217,
+        1613186461954
+      ],
+      "Monday Coding Night 02/16/2021": [
+        1613437124281,
+        1613443728378
+      ],
+      "Finance Meeting 02/17/2021": [
+        1612314000000,
+        1613533204955
+      ],
+      "Communications Meeting 02/18/2021": [
+        1613610630487,
+        1613612478302
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696239107,
+        1613703556083
+      ],
+      "Monday Coding Night 02/23/2021": [
+        1614041950033,
+        1614046343818
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214806232,
+        1614220919132
+      ],
+      "Side Project Development Night 02/27/2021": [
+        1614387588713,
+        1614396590591
+      ],
+      "Monday Coding Night 03/02/2021": [
+        1614646759144,
+        1614653045899
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733178241,
+        1614739275979
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614905966345,
+        1614911253177
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614992344153,
+        1615000090087
+      ],
+      "Professional Development Night 03/09/2021": [
+        1615251550019,
+        1615256221101
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424404244,
+        1615436649250
+      ],
+      "Side Project Development Night 03/13/2021": [
+        1615597170867,
+        1615604644842
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615939216935,
+        1615941609969
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112804549,
+        1616128646987
+      ],
+      "Side Project Development Night 03/20/2021": [
+        1616198379326,
+        1616206140282
+      ],
+      "Professional Development Night 03/23/2021": [
+        1616457618207,
+        1616463356771
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630368421,
+        1616635074541,
+        1616635588952,
+        1616640074048
+      ],
+      "Side Project Development Night 03/27/2021": [
+        1616803211475,
+        1616807403174
+      ],
+      "Professional Development Night 03/30/2021": [
+        1617062336011,
+        1617067507495
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148825371,
+        1617155948227
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321594381,
+        1617328915640
+      ],
+      "Side Project Development Night 04/03/2021": [
+        1617408078387,
+        1617411730172
+      ],
+      "Professional Development Night 04/06/2021": [
+        1617667295023,
+        1617671261946
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926374132,
+        1617933283382
+      ],
+      "Side Project Development Night 04/10/2021": [
+        1618012731101,
+        1618012734208,
+        1618012759367,
+        1618018797481,
+        1618018799606,
+        1618020233815
+      ],
+      "botch 04/12/2021": [
+        1618012731101,
+        1618012734208,
+        1618012759367,
+        1618018797481,
+        1618018799606,
+        1618020233815
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444840016,
+        1618451323303
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531183657,
+        1618535415571
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618621200000,
+        1618623783716
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618963290440,
+        1618968186488
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049611819,
+        1619053369417
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619135934971,
+        1619140488108,
+        1619141565677,
+        1619142281568
+      ],
+      "Side Project Development Night 04/24/2021": [
+        1619222438366,
+        1619225085183
+      ],
+      "Professional Development Night 04/27/2021": [
+        1619484383939,
+        1619485974753
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619567986194,
+        1619570506768
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740828824,
+        1619748633381
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620086363343,
+        1620092991759
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259222152,
+        1620267058160
+      ],
+      "Research Talk 05/07/2021": [
+        1620345577865,
+        1620350835672
+      ],
+      "Side Project Development Night 05/08/2021": [
+        1620438302175,
+        1620438341123
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691108410,
+        1620694366149,
+        1620694367004,
+        1620698631889,
+        1620698636960,
+        1620704544158
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621388016678
+      ],
+      "Professional Development Night 06/15/2021": [
+        1623675600000,
+        1623719354505
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630105200000,
+        1630120341232
+      ],
+      "Professional Development Night 08/31/2021": [
+        1630366563190,
+        1630366564690
+      ],
+      "Side Project Development Night 09/04/2021": [
+        1630713677933,
+        1630713967777
+      ],
+      "Professional Development Night 09/10/2021": [
+        1630978271927,
+        1630978307277,
+        1631067931465,
+        1631067963919,
+        1631153901638,
+        1631155929904
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631319955878,
+        1631320358381,
+        1631321491472,
+        1631330780369
+      ]
+    }
+  },
+  "215970591390433280": {
+    "nicknames": [
+      "Matthew Cheung"
+    ],
+    "usernames": [
+      "Yello"
+    ],
+    "attendance": {
+      "WSPI 01/01/2021": [
+        1609549232246,
+        1609556542307
+      ],
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610069712942,
+        1610079747149
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918766632,
+        1612926495206
+      ],
+      "Side Project Development Night 02/16/2021": [
+        1613178011869,
+        1613186462816
+      ],
+      "Monday Coding Night 02/16/2021": [
+        1613437215854,
+        1613443729248
+      ],
+      "Finance Meeting 02/17/2021": [
+        1612314000000,
+        1613531760332
+      ],
+      "Communications Meeting 02/18/2021": [
+        1613610300896,
+        1613612477981
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696500325,
+        1613701615325
+      ],
+      "Monday Coding Night 02/23/2021": [
+        1614041942858,
+        1614046343890
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214812377,
+        1614220921355
+      ],
+      "Side Project Development Night 02/27/2021": [
+        1614387618689,
+        1614396258513
+      ],
+      "Monday Coding Night 03/02/2021": [
+        1614646749489,
+        1614653046781
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733185669,
+        1614739276121,
+        1614739283590,
+        1614739287003
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906015206,
+        1614906312182,
+        1614906313328,
+        1614911254048
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614994523750,
+        1614994740967,
+        1614994908289,
+        1615000091096
+      ],
+      "Professional Development Night 03/09/2021": [
+        1615251585870,
+        1615256221665
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424301533,
+        1615435510908
+      ],
+      "Side Project Development Night 03/13/2021": [
+        1615599469338,
+        1615603260024
+      ],
+      "Professional Development Night 03/16/2021": [
+        1615852813029,
+        1615856032664,
+        1615856494082,
+        1615857056608
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615939222712,
+        1615941608596
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616114083009,
+        1616117829766
+      ],
+      "Professional Development Night 03/23/2021": [
+        1616457742920,
+        1616463189988
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630380682,
+        1616634765789,
+        1616636092251,
+        1616640074048
+      ],
+      "Side Project Development Night 03/27/2021": [
+        1616803298779,
+        1616807403263
+      ],
+      "Professional Development Night 03/30/2021": [
+        1617062384005,
+        1617067508809
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148825371,
+        1617155947931
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321579832,
+        1617328915409
+      ],
+      "Side Project Development Night 04/03/2021": [
+        1617408043179,
+        1617412731956
+      ],
+      "Professional Development Night 04/06/2021": [
+        1617667222753,
+        1617671260898
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926461013,
+        1617933284663
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444809057,
+        1618451321621
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531216676,
+        1618535414160
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618621200000,
+        1618623783471
+      ],
+      "Professional Development Night 04/20/2021": [
+        1618883144752,
+        1618884802149
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618964213780,
+        1618968186342
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049795668,
+        1619053367906
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619136002858,
+        1619140501202
+      ],
+      "Side Project Development Night 04/24/2021": [
+        1619222250368,
+        1619229425879
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619568002331,
+        1619570507739
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740306271,
+        1619748633381
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620086708260,
+        1620088885673,
+        1620088973762,
+        1620092994314
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259172843,
+        1620267091815
+      ],
+      "Side Project Development Night 05/08/2021": [
+        1620442577175,
+        1620449044768
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691287247,
+        1620698632656
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387520751
+      ],
+      "Professional Development Night 06/15/2021": [
+        1623717510553,
+        1623717572546
+      ],
+      "EBoard Meeting 08/12/2021": [
+        1628721187646,
+        1628730096864
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630111790983,
+        1630119445112
+      ]
+    }
+  },
+  "744893752505663534": {
+    "nicknames": [
+      "Joshua Cho",
+      "Josh"
+    ],
+    "usernames": [
+      "Joshua Cho",
+      "things"
+    ],
+    "attendance": {
+      "WSPI 01/16/2021": [
+        1610758801595,
+        1610762174601
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918735375,
+        1612923835180,
+        1612923844834,
+        1612924907002
+      ],
+      "Finance Meeting 02/17/2021": [
+        1612314000000,
+        1613533209109
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696313972,
+        1613701615274
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733181763,
+        1614739280660
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906029730,
+        1614911249409
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424190283,
+        1615430594227
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112022631,
+        1616117440375
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630164295,
+        1616635072664
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148825371,
+        1617153913178,
+        1617153921315,
+        1617155949569
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321377641,
+        1617328913340
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926386477,
+        1617926691406,
+        1617926701212,
+        1617933286780
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618530964070,
+        1618535413226
+      ],
+      "test 04/21/2021": [
+        1618963219182,
+        1618963220854
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618963236659,
+        1618968203456
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049438533,
+        1619053369996
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619135762713,
+        1619140490613
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619568011239,
+        1619570505334
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740622897,
+        1619746708665
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259399651,
+        1620267058038
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387448347
+      ],
+      "EBoard Meeting 08/12/2021": [
+        1628721187646,
+        1628730098468
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630105200000,
+        1630116114653
+      ],
+      "Professional Development Night 08/31/2021": [
+        1630367789797,
+        1630372417733
+      ],
+      "Side Project Development Night 09/04/2021": [
+        1630713469522,
+        1630718701096
+      ],
+      "Professional Development Night 09/10/2021": [
+        1630972835977,
+        1630978240415,
+        1631145582546,
+        1631150134596,
+        1631232019544,
+        1631232632134
+      ],
+      "test 09/10/2021": [
+        104399000,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631235600000,
+        1631235480155
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631318416241,
+        1631324890589
+      ]
+    }
+  },
+  "469175424803536907": {
+    "nicknames": [
+      "Daniel Brown (General Sherman)"
+    ],
+    "usernames": [
+      "N-Da5",
+      "fsdefde"
+    ],
+    "attendance": {
+      "Officers Meetings 02/10/2021": [
+        1612919214522,
+        1612921260663,
+        1612921261410,
+        1612926496202
+      ],
+      "Side Project Development Night 02/16/2021": [
+        1613178064924,
+        1613179452851,
+        1613179458248,
+        1613179482051,
+        1613179486400,
+        1613179492254,
+        1613179532737,
+        1613182687584,
+        1613182729512,
+        1613186461810
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696387293,
+        1613701614131
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214800765,
+        1614220921687
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906124302,
+        1614911260262
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614992381184,
+        1615000088135
+      ],
+      "Side Project Development Night 03/13/2021": [
+        1615600025978,
+        1615604643834
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615939267580,
+        1615941617572
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112006195,
+        1616112096226,
+        1616112097753,
+        1616117605605
+      ],
+      "Side Project Development Night 03/20/2021": [
+        1616198468730,
+        1616198475857,
+        1616198476714,
+        1616206140151
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630173073,
+        1616635069704,
+        1616638223122,
+        1616638302227
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148848298,
+        1617155949252
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321575277,
+        1617328914153
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926452078,
+        1617933856680
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444938854,
+        1618450932139
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531302657,
+        1618535365630
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618621200000,
+        1618623780260
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049663553,
+        1619053369070
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619568077822,
+        1619568089040,
+        1619568096972,
+        1619570503863
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259310159,
+        1620259930134,
+        1620259930973,
+        1620260155929,
+        1620260156781,
+        1620266611262
+      ],
+      "Research Talk 05/07/2021": [
+        1620345699285,
+        1620350516580
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387448429
+      ]
+    }
+  },
+  "587621683448512521": {
+    "nicknames": [
+      "Emily Stryker"
+    ],
+    "usernames": [
+      "nolanish"
+    ],
+    "attendance": {
+      "Monday Coding Night 12/29/2020": [
+        1609203628527,
+        1609207782426
+      ],
+      "WSPI 01/01/2021": [
+        1609549376360,
+        1609556542307
+      ],
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610068014800,
+        1610079749346
+      ],
+      "Monday Coding Night 01/12/2021": [
+        1610413200000,
+        1610415980425
+      ],
+      "WSPI 01/16/2021": [
+        1610759791589,
+        1610762703741
+      ],
+      "Monday Coding Night 01/26/2021": [
+        1611622729140,
+        1611627467535
+      ],
+      "Monday Coding Night 02/02/2021": [
+        1612227403407,
+        1612232297974
+      ],
+      "WSPI 02/06/2021": [
+        1612573401855,
+        1612578676824,
+        1612578710395,
+        1612581306916
+      ],
+      "Monday Coding Night 02/09/2021": [
+        1612832447908,
+        1612834019205,
+        1612834713157,
+        1612836495907
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918760344,
+        1612926494668
+      ],
+      "Side Project Development Night 02/16/2021": [
+        1613179394419,
+        1613179708249,
+        1613179711635,
+        1613184481252,
+        1613184485129,
+        1613184696868,
+        1613184698826,
+        1613184764457,
+        1613184775338,
+        1613185084160,
+        1613185188473,
+        1613186462393
+      ],
+      "Monday Coding Night 02/16/2021": [
+        1613437151535,
+        1613442048095
+      ],
+      "Finance Meeting 02/17/2021": [
+        1612314000000,
+        1613530832159
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696422329,
+        1613699159824,
+        1613699270649,
+        1613701614273
+      ],
+      "Monday Coding Night 02/23/2021": [
+        1614042019909,
+        1614046343389
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214980369,
+        1614220919365
+      ],
+      "Side Project Development Night 02/27/2021": [
+        1614387635339,
+        1614395243374
+      ],
+      "Monday Coding Night 03/02/2021": [
+        1614646823233,
+        1614653046375
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733156199,
+        1614739275243
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906052659,
+        1614911253112
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614992234303,
+        1614999943406
+      ],
+      "Professional Development Night 03/09/2021": [
+        1615251910185,
+        1615254539185,
+        1615254542309,
+        1615254864872,
+        1615254869915,
+        1615254952647,
+        1615254967363,
+        1615256220234
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424274330,
+        1615425417115,
+        1615425421058,
+        1615429845299
+      ],
+      "Side Project Development Night 03/13/2021": [
+        1615597359923,
+        1615604644599
+      ],
+      "Professional Development Night 03/16/2021": [
+        1615853508496,
+        1615857104562
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615941475753,
+        1615941610458
+      ],
+      "Side Project Development Night 03/20/2021": [
+        1616198845412,
+        1616206140828
+      ],
+      "Professional Development Night 03/23/2021": [
+        1616457719278,
+        1616463356340
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630385273,
+        1616635074840
+      ],
+      "Side Project Development Night 03/27/2021": [
+        1616803408932,
+        1616807403508
+      ],
+      "Professional Development Night 03/30/2021": [
+        1617062402998,
+        1617065495406
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148825371,
+        1617149638663,
+        1617149649937,
+        1617153885672,
+        1617153891365,
+        1617155947716
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321397686,
+        1617328914331
+      ],
+      "Professional Development Night 04/06/2021": [
+        1617667368658,
+        1617671259742
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926604092,
+        1617933281867
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444641455,
+        1618451352798
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531867981,
+        1618535413396
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618621200000,
+        1618624820736
+      ],
+      "Professional Development Night 04/20/2021": [
+        1618876941720,
+        1618880426259,
+        1618880431195,
+        1618880499216,
+        1618880502732,
+        1618880511490,
+        1618880522833,
+        1618884839878
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618963236659,
+        1618968185126
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049587291,
+        1619050708533,
+        1619050744863,
+        1619053529663
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619136142311,
+        1619140487871
+      ],
+      "Professional Development Night 04/27/2021": [
+        1619484383939,
+        1619485973212
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619568020103,
+        1619570504369
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740805508,
+        1619748633381
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620260098711,
+        1620267061656
+      ],
+      "Research Talk 05/07/2021": [
+        1620345732198,
+        1620350834392
+      ],
+      "Side Project Development Night 05/08/2021": [
+        1620437874057,
+        1620437876074,
+        1620438345158,
+        1620438468131,
+        1620449000492,
+        1620449044768
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691288971,
+        1620691291356,
+        1620691300469,
+        1620698628452
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387449527
+      ],
+      "Professional Development Night 06/15/2021": [
+        1623715675336,
+        1623719356020,
+        1623720902356,
+        1623726140775
+      ],
+      "EBoard Meeting 08/12/2021": [
+        1628721187646,
+        1628730097037
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630105200000,
+        1630115288171,
+        1630115292174,
+        1630120342201
+      ],
+      "Side Project Development Night 09/04/2021": [
+        1630714077392,
+        1630718702965
+      ],
+      "Professional Development Night 09/10/2021": [
+        1631145940127,
+        1631156301531,
+        1631232237816,
+        1631232632134
+      ],
+      "test 09/10/2021": [
+        104399000,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631235600000,
+        1631235485957
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631318351908,
+        1631324427512,
+        1631324430073,
+        1631324444457,
+        1631324456025,
+        1631324471082,
+        1631324473789,
+        1631324530578,
+        1631324534521,
+        1631331239219
+      ]
+    }
+  },
+  "509428208991469568": {
+    "nicknames": [
+      "Godswill U",
+      null,
+      "Godswill"
+    ],
+    "usernames": [
+      "Godswill U",
+      "StrykerX"
+    ],
+    "attendance": {
+      "Monday Coding Night 12/29/2020": [
+        1609203778066,
+        1609207789689
+      ],
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610069320054,
+        1610079749338
+      ],
+      "Monday Coding Night 01/11/2021": [
+        1610413200000,
+        1610415983424
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918882827,
+        1612920542447,
+        1612920604662,
+        1612926505111
+      ],
+      "Communications Meeting 02/18/2021": [
+        1613610116192,
+        1613612486278
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696560222,
+        1613701623301
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614215157382,
+        1614220921498
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733279536,
+        1614739279846
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906329725,
+        1614911252670
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424602039,
+        1615431318479
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615939309924,
+        1615939877505,
+        1615939882433,
+        1615941613066
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112134663,
+        1616115508643,
+        1616115519346,
+        1616117852039
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630491047,
+        1616635074960
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148872694,
+        1617155952585
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321628856,
+        1617328914122
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926614881,
+        1617931635110,
+        1617931637693,
+        1617933285560
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444882355,
+        1618451322771
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531302285,
+        1618535416775
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618963432862,
+        1618968187449
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049786319,
+        1619053370837
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619136302813,
+        1619140490834
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619568180925,
+        1619570508522
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259321572,
+        1620267062038
+      ],
+      "Research Talk 05/07/2021": [
+        1620345764886,
+        1620349530681
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691350951,
+        1620697890049
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387450884
+      ]
+    }
+  },
+  "227577632265469952": {
+    "nicknames": [
+      "Jun Won Oh"
+    ],
+    "usernames": [
+      "Jun Won"
+    ],
+    "attendance": {
+      "Monday Coding Night 12/29/2020": [
+        1609203615974,
+        1609207782566
+      ],
+      "WSPI 01/01/2021": [
+        1609549247096,
+        1609556542307
+      ],
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610067659476,
+        1610079742426
+      ],
+      "Monday Coding Night 01/12/2021": [
+        1610413200000,
+        1610415976712
+      ],
+      "WSPI 01/16/2021": [
+        1610758834834,
+        1610762171969
+      ],
+      "Monday Coding Night 01/18/2021": [
+        1611018006029,
+        1611022584625
+      ],
+      "WSPI 01/23/2021": [
+        1611363608389,
+        1611363827220
+      ],
+      "Monday Coding Night 01/26/2021": [
+        1611622786412,
+        1611627938879
+      ],
+      "Monday Coding Night 02/02/2021": [
+        1612227704142,
+        1612232296937
+      ],
+      "WSPI 02/06/2021": [
+        1612573262240,
+        1612582028648
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918971297,
+        1612926494580
+      ],
+      "Communications Meeting 02/18/2021": [
+        1613610179757,
+        1613612481805
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696356010,
+        1613701614590
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214763490,
+        1614220924338
+      ],
+      "Side Project Development Night 02/27/2021": [
+        1614387823472,
+        1614393870231
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733232156,
+        1614739275350
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614905993757,
+        1614911249911
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424298130,
+        1615434205877
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615939214660,
+        1615941612480
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112012219,
+        1616121263207
+      ],
+      "Side Project Development Night 03/20/2021": [
+        1616201424571,
+        1616206140272
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630380603,
+        1616635072761
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148827375,
+        1617155948113
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321526765,
+        1617328918451
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926386602,
+        1617933284615
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444722217,
+        1618448524352,
+        1618448596074,
+        1618449561873
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531133666,
+        1618531247625,
+        1618531249200,
+        1618535413864
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618963236659,
+        1618968186623
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049663065,
+        1619053370919
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619135979980,
+        1619140489120
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619568037021,
+        1619570504516
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740980915,
+        1619748633381
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259103921,
+        1620267058395
+      ],
+      "Research Talk 05/07/2021": [
+        1620345627250,
+        1620350835056
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691082926,
+        1620698630365
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387448498
+      ],
+      "Professional Development Night 06/15/2021": [
+        1623675600000,
+        1623719354019
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630105200000,
+        1630120344926
+      ],
+      "Side Project Development Night 09/04/2021": [
+        1630713729153,
+        1630718701688
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631318616769,
+        1631327131388
+      ]
+    }
+  },
+  "487640687714500618": {
+    "nicknames": [
+      "Habib Affinnih"
+    ],
+    "usernames": [
+      "Habib"
+    ],
+    "attendance": {
+      "Monday Coding Night 12/29/2020": [
+        1609203769587,
+        1609207783783
+      ],
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610071323340,
+        1610074040922
+      ],
+      "Monday Coding Night 01/12/2021": [
+        1610413200000,
+        1610415977399
+      ],
+      "Monday Coding Night 01/18/2021": [
+        1611017962432,
+        1611022589837
+      ],
+      "Monday Coding Night 01/26/2021": [
+        1611622974685,
+        1611627602836,
+        1611627604151,
+        1611627939896
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214767672,
+        1614220920894
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906075514,
+        1614911250446
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112708964,
+        1616117741876
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617930227095,
+        1617933283391
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444896705,
+        1618445946733
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531433729,
+        1618535415012
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691158699,
+        1620691197051,
+        1620691324943,
+        1620694848373,
+        1620695779349,
+        1620696916866
+      ]
+    }
+  },
+  "688915709224419426": {
+    "nicknames": [
+      "Sheng Hao Dong",
+      "Sheng hao Dong"
+    ],
+    "usernames": [
+      "sheng",
+      "MochaUUZ"
+    ],
+    "attendance": {
+      "Monday Coding Night 12/29/2020": [
+        1609203818697,
+        1609207786106
+      ],
+      "WSPI 01/01/2021": [
+        1609550149042,
+        1609556542307
+      ],
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610068077309,
+        1610079752920
+      ],
+      "Monday Coding Night 01/11/2021": [
+        1610413200000,
+        1610415979665
+      ],
+      "Monday Coding Night 02/02/2021": [
+        1612230166813,
+        1612230431770,
+        1612230432893,
+        1612232297956
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214910856,
+        1614220923223
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112139672,
+        1616117628230
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616631441626,
+        1616631999472
+      ]
+    }
+  },
+  "720360564513046589": {
+    "nicknames": [
+      "Carter"
+    ],
+    "usernames": [
+      "carter"
+    ],
+    "attendance": {
+      "WSPI 01/01/2021": [
+        1609549177360,
+        1609549193334
+      ],
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610067711499,
+        1610074172585
+      ],
+      "WSPI 01/16/2021": [
+        1610758967015,
+        1610762171650
+      ],
+      "WSPI 01/23/2021": [
+        1611363863840,
+        1611363907650
+      ],
+      "Monday Coding Night 02/02/2021": [
+        1612227904779,
+        1612231190998
+      ],
+      "WSPI 02/06/2021": [
+        1612573367360,
+        1612573422361,
+        1612573425535,
+        1612582390837
+      ],
+      "Monday Coding Night 02/09/2021": [
+        1612832656842,
+        1612836494959
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612921336927,
+        1612921355110
+      ],
+      "Side Project Development Night 02/16/2021": [
+        1613178046857,
+        1613186429650
+      ],
+      "Monday Coding Night 02/16/2021": [
+        1613437195209,
+        1613437204474,
+        1613437227925,
+        1613443729268
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696333455,
+        1613701611028,
+        1613701724790,
+        1613701787921
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214709563,
+        1614218451806
+      ],
+      "Side Project Development Night 02/27/2021": [
+        1614388751297,
+        1614391598002
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614992133298,
+        1614996812207
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424390531,
+        1615424763863
+      ],
+      "Side Project Development Night 03/13/2021": [
+        1615597758443,
+        1615599390320,
+        1615599397677,
+        1615599560714
+      ],
+      "Professional Development Night 04/06/2021": [
+        1617670446462,
+        1617671290958
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926453264,
+        1617933293680
+      ],
+      "Side Project Development Night 04/10/2021": [
+        1618012825184,
+        1618020234345
+      ],
+      "botch 04/12/2021": [
+        1618012825184,
+        1618020234345
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618445839352,
+        1618445928393
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618533911780,
+        1618535449315
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618621200000,
+        1618622516172
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618967067747,
+        1618967100149
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049318117,
+        1619053365442
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619135636340,
+        1619140493023
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740555880,
+        1619746835579
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620693958268,
+        1620698224120
+      ],
+      "Professional Development Night 08/31/2021": [
+        1630367858828,
+        1630372419598
+      ],
+      "Professional Development Night 09/10/2021": [
+        1630972827057,
+        1630977514664
+      ]
+    }
+  },
+  "334085488086614019": {
+    "nicknames": [
+      "Allanah Matthews"
+    ],
+    "usernames": [
+      "Allanah_16"
+    ],
+    "attendance": {
+      "WSPI 01/01/2021": [
+        1609549995531,
+        1609556542307
+      ],
+      "WSPI 01/16/2021": [
+        1610760136613,
+        1610762172313
+      ],
+      "Monday Coding Night 01/18/2021": [
+        1611018314444,
+        1611022585287
+      ],
+      "Monday Coding Night 02/02/2021": [
+        1612227757892,
+        1612232310828
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612922304822,
+        1612926496320
+      ],
+      "Finance Meeting 02/17/2021": [
+        1612314000000,
+        1613530429649,
+        1613530431113,
+        1613531751871
+      ],
+      "Communications Meeting 02/18/2021": [
+        1613611261724,
+        1613611306633
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696603755,
+        1613699025108,
+        1613699099565,
+        1613701807610
+      ],
+      "Monday Coding Night 02/23/2021": [
+        1614041739270,
+        1614046343550
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214799255,
+        1614220917611
+      ],
+      "Monday Coding Night 03/02/2021": [
+        1614646721057,
+        1614653048884
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733789730,
+        1614739276643
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614993428385,
+        1615000691236
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424352928,
+        1615430073100
+      ],
+      "Professional Development Night 03/16/2021": [
+        1615853795488,
+        1615857107338
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615941388792,
+        1615941609506
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112171846,
+        1616114540658,
+        1616114561530,
+        1616115583767,
+        1616115591316,
+        1616115612639,
+        1616120878234,
+        1616120957251
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616631429414,
+        1616635074812
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148893147,
+        1617155949525
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617322496234,
+        1617328299510,
+        1617328307916,
+        1617328919094
+      ],
+      "Side Project Development Night 04/03/2021": [
+        1617416599224,
+        1617416793491
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617928878124,
+        1617931881648
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444564941,
+        1618449548933
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618963357115,
+        1618968185931
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619050376295,
+        1619053370385
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619136144482,
+        1619140550195,
+        1619140587990,
+        1619140608494,
+        1619145521987,
+        1619145607637
+      ],
+      "Professional Development Night 04/27/2021": [
+        1619484383939,
+        1619487003847
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619568535659,
+        1619568663465,
+        1619568705513,
+        1619570506224
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619741220473,
+        1619746875133
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620087494996,
+        1620092991804
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620260459553,
+        1620267091815
+      ],
+      "Research Talk 05/07/2021": [
+        1620350265558,
+        1620350835015
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620690412480,
+        1620698291804,
+        1620698297271,
+        1620698630708
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387449650
+      ],
+      "EBoard Meeting 08/12/2021": [
+        1628727169551,
+        1628727206287
+      ]
+    }
+  },
+  "277275957147074560": {
+    "nicknames": [
+      "Brandon Tiev",
+      "Brandon and that is all"
+    ],
+    "usernames": [
+      "Goldminer127"
+    ],
+    "attendance": {
+      "WSPI 01/01/2021": [
+        1609550434733,
+        1609556542307
+      ],
+      "WSPI 02/06/2021": [
+        1612573251543,
+        1612582390837
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696924084,
+        1613703556246
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614992321364,
+        1615000100973
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112105956,
+        1616112135122,
+        1616112523628,
+        1616133667555
+      ],
+      "Professional Development Night 03/23/2021": [
+        1616459382984,
+        1616459403264
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616629828479,
+        1616640074048
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321595212,
+        1617326649544,
+        1617326653609,
+        1617328925191
+      ],
+      "Side Project Development Night 04/03/2021": [
+        1617408522636,
+        1617409345881,
+        1617419898508,
+        1617420893336
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926782586,
+        1617926871411
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619136114875,
+        1619140490638,
+        1619140512396,
+        1619148074067
+      ],
+      "Side Project Development Night 04/24/2021": [
+        1619224850433,
+        1619233653192,
+        1619233657558,
+        1619234296394
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619743340024,
+        1619748633381
+      ],
+      "Side Project Development Night 05/08/2021": [
+        1620437693888,
+        1620449044768
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691472008,
+        1620698633380,
+        1620698638484,
+        1620704546428
+      ],
+      "Professional Development Night 06/15/2021": [
+        1623715878602,
+        1623717583642
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630105200000,
+        1630120344031
+      ],
+      "Side Project Development Night 09/04/2021": [
+        1630714268893,
+        1630715036994,
+        1630717956773,
+        1630718150716
+      ],
+      "Professional Development Night 09/10/2021": [
+        1631145275259,
+        1631153116532
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631318593073,
+        1631325529079
+      ]
+    }
+  },
+  "419203179322933249": {
+    "nicknames": [
+      "Matthew Killeen"
+    ],
+    "usernames": [
+      "Maximum_Bargingo"
+    ],
+    "attendance": {
+      "WSPI 01/01/2021": [
+        1609550913757,
+        1609556542307
+      ],
+      "Monday Coding Night 01/11/2021": [
+        1610413200000,
+        1610415977843
+      ],
+      "Monday Coding Night 01/18/2021": [
+        1611017977486,
+        1611022588009
+      ],
+      "Monday Coding Night 01/26/2021": [
+        1611622838676,
+        1611626380146,
+        1611626383537,
+        1611627936646
+      ],
+      "Monday Coding Night 02/02/2021": [
+        1612227426260,
+        1612232295709
+      ],
+      "WSPI 02/06/2021": [
+        1612573253705,
+        1612580805807
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918702325,
+        1612926498947,
+        1612926499240,
+        1612926518721
+      ],
+      "Monday Coding Night 02/16/2021": [
+        1613437118666,
+        1613443728426
+      ],
+      "Finance Meeting 02/17/2021": [
+        1612314000000,
+        1613531750566
+      ],
+      "Communications Meeting 02/18/2021": [
+        1613610001176,
+        1613612477574
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696335123,
+        1613701614252
+      ],
+      "Monday Coding Night 02/23/2021": [
+        1614041961319,
+        1614046349016
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214734343,
+        1614220920282
+      ],
+      "Side Project Development Night 02/27/2021": [
+        1614387760350,
+        1614392694463
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733188179,
+        1614739275514
+      ],
+      "Professional Development Night 03/09/2021": [
+        1615251675360,
+        1615254521376,
+        1615254524198,
+        1615256220723
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424328752,
+        1615437310636
+      ],
+      "Side Project Development Night 03/13/2021": [
+        1615597201067,
+        1615604646342
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615941349135,
+        1615941614536
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112014044,
+        1616121259538
+      ],
+      "Side Project Development Night 03/20/2021": [
+        1616198392515,
+        1616206139213
+      ],
+      "Professional Development Night 03/23/2021": [
+        1616457561867,
+        1616459911704,
+        1616459916165,
+        1616463358700
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630401901,
+        1616635075847
+      ],
+      "Professional Development Night 03/30/2021": [
+        1617062414954,
+        1617067510595
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148825371,
+        1617149565339,
+        1617149572434,
+        1617155951212
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321648060,
+        1617327795503
+      ],
+      "Professional Development Night 04/06/2021": [
+        1617667098661,
+        1617671263708
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926404080,
+        1617933282781
+      ],
+      "Side Project Development Night 04/10/2021": [
+        1618012788722,
+        1618020234575
+      ],
+      "botch 04/12/2021": [
+        1618012788722,
+        1618020234575
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444916682,
+        1618451323326,
+        1618451336602,
+        1618451352798
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618621200000,
+        1618623678659
+      ],
+      "Professional Development Night 04/20/2021": [
+        1618876801906,
+        1618884819122
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618963748063,
+        1618968194099
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049602757,
+        1619053370137
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619135668007,
+        1619148073508
+      ],
+      "Professional Development Night 04/27/2021": [
+        1619484383939,
+        1619485974038
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619567939443,
+        1619570507040
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740797136,
+        1619747301548
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620086338172,
+        1620092992264
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620262752204,
+        1620267058319
+      ],
+      "Research Talk 05/07/2021": [
+        1620350347793,
+        1620350840156
+      ],
+      "Side Project Development Night 05/08/2021": [
+        1620448996425,
+        1620449044768
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691033974,
+        1620698629608
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621388016678
+      ],
+      "EBoard Meeting 08/12/2021": [
+        1628721187646,
+        1628730097559
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630105200000,
+        1630111878084,
+        1630111879643,
+        1630120344110
+      ],
+      "Professional Development Night 08/31/2021": [
+        1630367772114,
+        1630372417565
+      ],
+      "Professional Development Night 09/10/2021": [
+        1630972742971,
+        1630978238983,
+        1630978416431,
+        1630978458088,
+        1631149776928,
+        1631151909310,
+        1631231985474,
+        1631232632134
+      ],
+      "test 09/10/2021": [
+        104399000,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631235600000,
+        1631235479822
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631322603075,
+        1631330739117
+      ]
+    }
+  },
+  "245363767867736066": {
+    "nicknames": [
+      "Brayden Lappies"
+    ],
+    "usernames": [
+      "SmallQuail",
+      "QuailSpinch"
+    ],
+    "attendance": {
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610067658614,
+        1610079765564
+      ],
+      "Professional Development Night 04/27/2021": [
+        1619484383939,
+        1619485975294
+      ]
+    }
+  },
+  "572111048656683009": {
+    "nicknames": [
+      "Carolyn Kaminski"
+    ],
+    "usernames": [
+      "carolyn"
+    ],
+    "attendance": {
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610067699135,
+        1610075615973
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918752694,
+        1612926495268
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696407419,
+        1613697074207,
+        1613697240179,
+        1613701611774
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214882278,
+        1614220926345
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906053544,
+        1614911250395
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614992647313,
+        1615000089695
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424414230,
+        1615429481116
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615939223550,
+        1615941610007
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112059306,
+        1616116959440
+      ],
+      "Professional Development Night 03/30/2021": [
+        1617062420028,
+        1617066697032,
+        1617066700249,
+        1617067507543
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148911780,
+        1617155948450
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617322823191,
+        1617328917498
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531447662,
+        1618535416574
+      ],
+      "Professional Development Night 04/27/2021": [
+        1619484383939,
+        1619485794705
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740740855,
+        1619744862733
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387443529
+      ]
+    }
+  },
+  "489136523644502020": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "David R",
+      "davidrandoll.eth"
+    ],
+    "attendance": {
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610067741351,
+        1610068934936
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696434938,
+        1613696643922,
+        1613696652434,
+        1613699476371,
+        1613699481646,
+        1613700206976,
+        1613700217156,
+        1613701613344
+      ],
+      "Monday Coding Night 02/23/2021": [
+        1614043326499,
+        1614043416720,
+        1614043566057,
+        1614045290857,
+        1614045301746,
+        1614045610210
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926470446,
+        1617932246801
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691314825,
+        1620698629887
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630115610335,
+        1630118756923
+      ],
+      "Side Project Development Night 09/04/2021": [
+        1630713615780,
+        1630715631175
+      ]
+    }
+  },
+  "420955600726392842": {
+    "nicknames": [
+      "keanu browne"
+    ],
+    "usernames": [
+      "AestheticDre"
+    ],
+    "attendance": {
+      "OS Dev Workshop 3: Operating System Development 01/08/2021": [
+        1610067838692,
+        1610069092962
+      ]
+    }
+  },
+  "578387000919457805": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "sheed33"
+    ],
+    "attendance": {
+      "WSPI 01/16/2021": [
+        1610758932343,
+        1610758935387,
+        1610758954981,
+        1610758957390,
+        1610758986609,
+        1610761678152
+      ],
+      "Monday Coding Night 01/18/2021": [
+        1611018172266,
+        1611018559322
+      ],
+      "WSPI 02/06/2021": [
+        1612575828841,
+        1612575903976
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615425186079,
+        1615425352733
+      ]
+    }
+  },
+  "362799899814789120": {
+    "nicknames": [],
+    "usernames": [],
+    "attendance": {
+      "WSPI 01/16/2021": [
+        1610760100628,
+        1610760126780
+      ]
+    }
+  },
+  "754501574218219602": {
+    "nicknames": [],
+    "usernames": [],
+    "attendance": {
+      "Monday Coding Night 02/02/2021": [
+        1612231354524,
+        1612231392949
+      ]
+    }
+  },
+  "733839506264031232": {
+    "nicknames": [
+      null,
+      "Stream (Oluwasogo Awofeso)"
+    ],
+    "usernames": [
+      "stream"
+    ],
+    "attendance": {
+      "WSPI 02/06/2021": [
+        1612573332312,
+        1612574326074,
+        1612580470078,
+        1612580484675
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696327977,
+        1613701795575
+      ],
+      "Monday Coding Night 02/23/2021": [
+        1614043973435,
+        1614046343496
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614734399769,
+        1614739308320
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906020643,
+        1614911143741
+      ],
+      "Professional Development Night 03/09/2021": [
+        1615251746143,
+        1615252782252,
+        1615252815477,
+        1615254205235
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424426838,
+        1615424749833,
+        1615424758701,
+        1615432159823,
+        1615432162917,
+        1615432214291
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112127769,
+        1616118111134
+      ],
+      "Side Project Development Night 03/20/2021": [
+        1616198534420,
+        1616198819407,
+        1616200255299,
+        1616206141797
+      ],
+      "Professional Development Night 03/23/2021": [
+        1616457586914,
+        1616463364780
+      ],
+      "Side Project Development Night 03/27/2021": [
+        1616803263284,
+        1616806837171
+      ],
+      "Professional Development Night 03/30/2021": [
+        1617062572862,
+        1617067564819
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148825371,
+        1617155950992
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321693207,
+        1617328920631
+      ],
+      "Side Project Development Night 04/03/2021": [
+        1617416567768,
+        1617416575163
+      ],
+      "Professional Development Night 04/06/2021": [
+        1617668916431,
+        1617671261946
+      ],
+      "Side Project Development Night 04/10/2021": [
+        1618013237512,
+        1618019601421,
+        1618019605164,
+        1618020232762
+      ],
+      "botch 04/12/2021": [
+        1618013237512,
+        1618019601421,
+        1618019605164,
+        1618020232762
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444695393,
+        1618451320048
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618534692285,
+        1618535429832
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618621200000,
+        1618623784106
+      ],
+      "Professional Development Night 04/20/2021": [
+        1618877846901,
+        1618883372421
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618963418489,
+        1618963444181
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619051935766,
+        1619053369613
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619136298752,
+        1619140497532
+      ],
+      "Side Project Development Night 04/24/2021": [
+        1619224088713,
+        1619231032247
+      ],
+      "Professional Development Night 04/27/2021": [
+        1619484383939,
+        1619484519297,
+        1619484529769,
+        1619485977033
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619568181416,
+        1619570506741
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740999858,
+        1619746386153
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620086565937,
+        1620092986170
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259444070,
+        1620267056984
+      ]
+    }
+  },
+  "241597377759281152": {
+    "nicknames": [
+      "Nick Bernard"
+    ],
+    "usernames": [],
+    "attendance": {
+      "Monday Coding Night 02/09/2021": [
+        1612832400404,
+        1612833826252,
+        1612834143481,
+        1612835285487,
+        1612835340460,
+        1612835957337,
+        1612836013433,
+        1612836496524
+      ]
+    }
+  },
+  "743989182258479184": {
+    "nicknames": [
+      "Kiran Aziz"
+    ],
+    "usernames": [
+      "kiran"
+    ],
+    "attendance": {
+      "Monday Coding Night 02/09/2021": [
+        1612832555851,
+        1612836495682
+      ],
+      "Officers Meetings 02/10/2021": [
+        1612918762053,
+        1612926495251
+      ],
+      "Monday Coding Night 02/16/2021": [
+        1613437176449,
+        1613443727778
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696341764,
+        1613701612755
+      ],
+      "Monday Coding Night 02/23/2021": [
+        1614041979692,
+        1614046344824
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214820480,
+        1614215004952,
+        1614215228828,
+        1614220920174
+      ],
+      "Monday Coding Night 03/02/2021": [
+        1614646779144,
+        1614651412187
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733201917,
+        1614739277558
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906358754,
+        1614911247848
+      ],
+      "Professional Development Night 03/09/2021": [
+        1615251990056,
+        1615256218513
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112506063,
+        1616117590143
+      ],
+      "Professional Development Night 03/23/2021": [
+        1616457735520,
+        1616463356902
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630804915,
+        1616635070988
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617149030353,
+        1617155948612
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617322828412,
+        1617328913592
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926773015,
+        1617926857540,
+        1617926869896,
+        1617926930903,
+        1617926947136,
+        1617927132225,
+        1617927143843,
+        1617927152925,
+        1617927279080,
+        1617933540744
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531969840,
+        1618535411077
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619567959675,
+        1619570504111
+      ],
+      "Officer Meeting 05/19/2021": [
+        1621385799134,
+        1621387444927
+      ]
+    }
+  },
+  "676469418951442444": {
+    "nicknames": [],
+    "usernames": [],
+    "attendance": {
+      "Officers Meetings 02/10/2021": [
+        1612920299009,
+        1612921703939
+      ]
+    }
+  },
+  "334131757760905218": {
+    "nicknames": [
+      "Taha Farooq"
+    ],
+    "usernames": [
+      "Ainz-sama",
+      "Rimaru  Tempest",
+      "Ainz Ooal Gown sama"
+    ],
+    "attendance": {
+      "Side Project Development Night 02/16/2021": [
+        1613182704100,
+        1613183540105,
+        1613184296852,
+        1613185404487,
+        1613185409881,
+        1613185490090,
+        1613185530398,
+        1613186218495,
+        1613186236903,
+        1613186467495
+      ],
+      "Side Project Development Night 02/27/2021": [
+        1614387661702,
+        1614396592476
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615435415493,
+        1615435833416
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616121475835,
+        1616128647561
+      ],
+      "Side Project Development Night 03/20/2021": [
+        1616199308414,
+        1616201669421
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616635897683,
+        1616640074048
+      ],
+      "Side Project Development Night 03/27/2021": [
+        1616803343144,
+        1616806341622
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321659633,
+        1617325805780
+      ],
+      "Side Project Development Night 04/03/2021": [
+        1617408880846,
+        1617416939076
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618449524508,
+        1618451352798
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618621200000,
+        1618623781657
+      ],
+      "Side Project Development Night 04/24/2021": [
+        1619222587432,
+        1619226188792,
+        1619226190797,
+        1619229633972
+      ],
+      "Research Talk 05/07/2021": [
+        1620347275854,
+        1620350838081
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630115583837,
+        1630119211129
+      ],
+      "Side Project Development Night 09/04/2021": [
+        1630714068893,
+        1630715660146
+      ]
+    }
+  },
+  "109505502941061120": {
+    "nicknames": [
+      "Nicholas Andriy"
+    ],
+    "usernames": [
+      "J4NdRo"
+    ],
+    "attendance": {
+      "Side Project Development Night 02/16/2021": [
+        1613282059485,
+        1613282061883
+      ],
+      "Monday Coding Night 02/16/2021": [
+        1613437194793,
+        1613442446467
+      ],
+      "Finance Meeting 02/17/2021": [
+        1612314000000,
+        1613531768923
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696560021,
+        1613701614273
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214810780,
+        1614220917319
+      ],
+      "Monday Coding Night 03/02/2021": [
+        1614646611332,
+        1614653045106
+      ],
+      "Officers Meetings 03/03/2021": [
+        1614733147321,
+        1614739304216
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906018284,
+        1614911249387
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614992585684,
+        1615000100685
+      ],
+      "Professional Development Night 03/09/2021": [
+        1615251331419,
+        1615256221665
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424418245,
+        1615430045496
+      ],
+      "Professional Development Night 03/16/2021": [
+        1615852315392,
+        1615852454902,
+        1615852645610,
+        1615856600960
+      ],
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615939035807,
+        1615941619382
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616111955034,
+        1616117880570,
+        1616121838613,
+        1616124357230
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630511600,
+        1616635076903
+      ],
+      "Professional Development Night 03/30/2021": [
+        1617062416279,
+        1617067509835
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148825371,
+        1617155955230
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321553043,
+        1617328921299
+      ],
+      "Side Project Development Night 04/03/2021": [
+        1617408940445,
+        1617409283570,
+        1617409730463,
+        1617411999941
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531069957,
+        1618532422578,
+        1618532656247,
+        1618535418284
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259152165,
+        1620267091815
+      ]
+    }
+  },
+  "495747862723035178": {
+    "nicknames": [
+      "AJ Discoursi",
+      "AJ Discorsi"
+    ],
+    "usernames": [
+      "weedy"
+    ],
+    "attendance": {
+      "Monday Coding Night 02/16/2021": [
+        1613437165977,
+        1613443728839
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696386777,
+        1613701614229
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614907626265,
+        1614908185008
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112644613,
+        1616117461301
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620265625708,
+        1620266212041
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620697841210,
+        1620698630943
+      ]
+    }
+  },
+  "485910313229615124": {
+    "nicknames": [
+      "Aidan Tripodi"
+    ],
+    "usernames": [
+      "external"
+    ],
+    "attendance": {
+      "Monday Coding Night 02/16/2021": [
+        1613437225953,
+        1613442652077
+      ],
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696407556,
+        1613698212267
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616114299879,
+        1616116465869
+      ]
+    }
+  },
+  "213882186850500608": {
+    "nicknames": [
+      "Jason Simulink"
+    ],
+    "usernames": [],
+    "attendance": {
+      "Monday Coding Night 02/16/2021": [
+        1613440483660,
+        1613440485166,
+        1613440489378,
+        1613441403152
+      ]
+    }
+  },
+  "348976120315510785": {
+    "nicknames": [
+      "Omar Al Sibani"
+    ],
+    "usernames": [],
+    "attendance": {
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696333783,
+        1613700791554
+      ]
+    }
+  },
+  "271815100036415501": {
+    "nicknames": [
+      "Nixon Kwok"
+    ],
+    "usernames": [
+      "nixon"
+    ],
+    "attendance": {
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696505566,
+        1613701165417
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214816947,
+        1614216938999
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926647630,
+        1617929406547
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531851505,
+        1618532971169
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740862262,
+        1619743543735
+      ]
+    }
+  },
+  "691685146449149962": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "a joke"
+    ],
+    "attendance": {
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613697612677,
+        1613700038036,
+        1613700247607,
+        1613701613259
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740859581,
+        1619746890516
+      ]
+    }
+  },
+  "242093412054990848": {
+    "nicknames": [],
+    "usernames": [],
+    "attendance": {
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613701612154,
+        1613703588081
+      ]
+    }
+  },
+  "249384516953571338": {
+    "nicknames": [],
+    "usernames": [
+      "HUUUUang"
+    ],
+    "attendance": {
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613699928151,
+        1613700235428
+      ]
+    }
+  },
+  "809603635943571504": {
+    "nicknames": [
+      "Andre"
+    ],
+    "usernames": [
+      "NotAndre"
+    ],
+    "attendance": {
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696373851,
+        1613701615512
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214973507,
+        1614220918469
+      ],
+      "Side Project Development Night 02/27/2021": [
+        1614388755099,
+        1614391418046
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906081980,
+        1614911251060
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112063518,
+        1616119070476
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630432154,
+        1616635073927
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321643103,
+        1617328914130
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926454294,
+        1617933282660
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618446339178,
+        1618451316242
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531355691,
+        1618535415326
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618621200000,
+        1618623782605
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049662890,
+        1619053368732
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619136060862,
+        1619140488708
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740895252,
+        1619747346687
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620086473052,
+        1620092991733
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620260242906,
+        1620260304565
+      ],
+      "Research Talk 05/07/2021": [
+        1620345779910,
+        1620350835542
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691364654,
+        1620698629405
+      ]
+    }
+  },
+  "811236348966338590": {
+    "nicknames": [],
+    "usernames": [
+      "pooja"
+    ],
+    "attendance": {
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696299119,
+        1613700681356
+      ]
+    }
+  },
+  "809596070761725982": {
+    "nicknames": [
+      "Sam"
+    ],
+    "usernames": [
+      "samnibbet"
+    ],
+    "attendance": {
+      "Introduction to Time Complexity and Big Oh Notation 02/19/2021": [
+        1613696345231,
+        1613701073806
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444915157,
+        1618444965658,
+        1618445087829,
+        1618447141391
+      ]
+    }
+  },
+  "809602979447177277": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "RaviSood"
+    ],
+    "attendance": {
+      "Monday Coding Night 02/23/2021": [
+        1614041711171,
+        1614046343169
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614214700434,
+        1614220915673
+      ],
+      "Monday Coding Night 03/02/2021": [
+        1614646957437,
+        1614653042284
+      ],
+      "Professional Development Night 03/23/2021": [
+        1616457126215,
+        1616463371819
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630148086,
+        1616635070957
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926485330,
+        1617927953975
+      ]
+    }
+  },
+  "335617715672711170": {
+    "nicknames": [
+      "John"
+    ],
+    "usernames": [
+      "JayDawg"
+    ],
+    "attendance": {
+      "Monday Coding Night 02/23/2021": [
+        1614042163539,
+        1614046344620
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614215350022,
+        1614218057314,
+        1614218065718,
+        1614219348116
+      ],
+      "Monday Coding Night 03/02/2021": [
+        1614646638116,
+        1614653181540
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614905972566,
+        1614908435904
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614992878718,
+        1614993489050
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424318864,
+        1615429840588,
+        1615429978249,
+        1615432314159
+      ],
+      "Professional Development Night 03/16/2021": [
+        1615852509168,
+        1615857103753
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112148838,
+        1616114307442,
+        1616114311089,
+        1616119796127
+      ],
+      "Side Project Development Night 03/20/2021": [
+        1616199136718,
+        1616206141601
+      ],
+      "Professional Development Night 03/23/2021": [
+        1616456597338,
+        1616463361018
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630478864,
+        1616630742575,
+        1616630745340,
+        1616633172473,
+        1616633175920,
+        1616635073541
+      ],
+      "Side Project Development Night 03/27/2021": [
+        1616803947339,
+        1616805171265
+      ],
+      "Professional Development Night 03/30/2021": [
+        1617062508938,
+        1617067507043
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321298696,
+        1617322465953,
+        1617322469344,
+        1617328926926
+      ],
+      "Professional Development Night 04/06/2021": [
+        1617667240665,
+        1617671259601
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617928004229,
+        1617928022502
+      ],
+      "Side Project Development Night 04/10/2021": [
+        1618015278151,
+        1618015317548,
+        1618015319894,
+        1618020252955
+      ],
+      "botch 04/12/2021": [
+        1618015278151,
+        1618015317548,
+        1618015319894,
+        1618020252955,
+        1618020262644,
+        1618268617173
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444586070,
+        1618445897753,
+        1618445908867,
+        1618446451360,
+        1618446997838,
+        1618451322646
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531720629,
+        1618534391498
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618621200000,
+        1618622800782,
+        1618622803321,
+        1618623415506,
+        1618623417189,
+        1618623784649
+      ],
+      "Professional Development Night 04/20/2021": [
+        1618881516382,
+        1618881650715
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049649062,
+        1619049713717,
+        1619049717033,
+        1619049765981,
+        1619049767250,
+        1619050113949,
+        1619050118570,
+        1619053377327
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619136112526,
+        1619140575722,
+        1619140585804,
+        1619141356278
+      ],
+      "Side Project Development Night 04/24/2021": [
+        1619222287507,
+        1619234296394
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619739732009,
+        1619748633381
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620085887830,
+        1620092992860
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259142426,
+        1620267053933
+      ],
+      "Research Talk 05/07/2021": [
+        1620345612428,
+        1620346137235,
+        1620346145657,
+        1620346168601,
+        1620346173842,
+        1620347609538
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620696422601,
+        1620698631587
+      ],
+      "Professional Development Night 06/15/2021": [
+        1623717448375,
+        1623719356528
+      ],
+      "Professional Development Night 09/10/2021": [
+        1631231971600,
+        1631232632134
+      ],
+      "test 09/10/2021": [
+        104399000,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631235600000,
+        1631233725977
+      ]
+    }
+  },
+  "184121852573122560": {
+    "nicknames": [
+      "Nelci Vidal"
+    ],
+    "usernames": [
+      "Smeller"
+    ],
+    "attendance": {
+      "Monday Coding Night 02/23/2021": [
+        1614042197277,
+        1614042198416
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112427184,
+        1616114859020,
+        1616115175785,
+        1616115808406
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740964123,
+        1619742469786
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620700280490,
+        1620700281980
+      ]
+    }
+  },
+  "331767064379523074": {
+    "nicknames": [
+      null,
+      "Srujan Vepuri"
+    ],
+    "usernames": [
+      "Dreamer"
+    ],
+    "attendance": {
+      "Monday Coding Night 02/23/2021": [
+        1614044100623,
+        1614044527118
+      ],
+      "Introduction to Vim 02/25/2021": [
+        1614217233615,
+        1614217854822
+      ],
+      "Side Project Development Night 02/27/2021": [
+        1614387642850,
+        1614390624833
+      ],
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906131981,
+        1614907458550,
+        1614909867419,
+        1614910049430
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620260075321,
+        1620263048352
+      ]
+    }
+  },
+  "812833121393180723": {
+    "nicknames": [
+      "Edgar Barranco"
+    ],
+    "usernames": [
+      "ebarranco"
+    ],
+    "attendance": {
+      "Introduction to Vim 02/25/2021": [
+        1614214809451,
+        1614220921203
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619136072403,
+        1619140484237
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620262162351,
+        1620267091815
+      ]
+    }
+  },
+  "737508231739473980": {
+    "nicknames": [
+      "Jessica LeGere"
+    ],
+    "usernames": [
+      "Jessie"
+    ],
+    "attendance": {
+      "Introduction to Vim 02/25/2021": [
+        1614214922566,
+        1614220922488
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424520949,
+        1615430076335
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630591752,
+        1616635074209
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619050359490,
+        1619053368447
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259826385,
+        1620267057990
+      ]
+    }
+  },
+  "355872801464516608": {
+    "nicknames": [
+      "Austin"
+    ],
+    "usernames": [
+      "|Austin|"
+    ],
+    "attendance": {
+      "Introduction to Vim 02/25/2021": [
+        1614215064297,
+        1614220918289
+      ],
+      "Professional Development Night 03/16/2021": [
+        1615852863967,
+        1615857110149
+      ]
+    }
+  },
+  "263905265454284800": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "_B_D_V_"
+    ],
+    "attendance": {
+      "Introduction to Vim 02/25/2021": [
+        1614215310862,
+        1614215316690,
+        1614215349089,
+        1614215579408
+      ]
+    }
+  },
+  "237667687801683969": {
+    "nicknames": [
+      "Brian"
+    ],
+    "usernames": [
+      "Karma"
+    ],
+    "attendance": {
+      "Side Project Development Night 02/27/2021": [
+        1614393277248,
+        1614394070670,
+        1614394078554,
+        1614396589615
+      ],
+      "Monday Coding Night 03/02/2021": [
+        1614646794056,
+        1614647919426
+      ],
+      "Side Project Development Night 03/06/2021": [
+        1614994947715,
+        1614999581784
+      ],
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615424287681,
+        1615435491511
+      ],
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112273806,
+        1616114412444,
+        1616114414723,
+        1616126234336
+      ],
+      "Side Project Development Night 03/20/2021": [
+        1616198908465,
+        1616203292217
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630253911,
+        1616640074048
+      ],
+      "Side Project Development Night 03/27/2021": [
+        1616803948450,
+        1616808899682
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617148825371,
+        1617155957171
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321519210,
+        1617322090690,
+        1617322195009,
+        1617328914922
+      ],
+      "Side Project Development Night 04/03/2021": [
+        1617408997574,
+        1617420861604
+      ],
+      "Professional Development Night 04/06/2021": [
+        1617667175190,
+        1617671269141
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617927114793,
+        1617927813102,
+        1617930236752,
+        1617933302853
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444859606,
+        1618445606315,
+        1618445608637,
+        1618451352798
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531191964,
+        1618531250700,
+        1618531424170,
+        1618532803609,
+        1618532805777,
+        1618535415534
+      ],
+      "Side Project Development Night 04/17/2021": [
+        1618621200000,
+        1618623783074
+      ],
+      "Professional Development Night 04/20/2021": [
+        1618876879057,
+        1618884828409
+      ],
+      "Finance Meeting 04/21/2021": [
+        1618965217026,
+        1618968202869
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619051218710,
+        1619051356686,
+        1619051428353,
+        1619052243258
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619135654235,
+        1619148074067
+      ],
+      "Side Project Development Night 04/24/2021": [
+        1619224677347,
+        1619227969906
+      ],
+      "Officers Meeting 04/28/2021": [
+        1619567192859,
+        1619570505868
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740367314,
+        1619744589367,
+        1619745438619,
+        1619745773348
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259021520,
+        1620267063490
+      ],
+      "Research Talk 05/07/2021": [
+        1620349963205,
+        1620350846108
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691032879,
+        1620693653738,
+        1620693655643,
+        1620695354008,
+        1620695355727,
+        1620695928292,
+        1620695952558,
+        1620702485055
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621387449433,
+        1621387456676,
+        1621388016678
+      ],
+      "Professional Development Night 06/15/2021": [
+        1623675600000,
+        1623726301679
+      ],
+      "EBoard Meeting 08/12/2021": [
+        1628721864289,
+        1628723462705,
+        1628723704583,
+        1628730099374
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630105200000,
+        1630120355366
+      ],
+      "Professional Development Night 08/31/2021": [
+        1630369120629,
+        1630369136361
+      ],
+      "Side Project Development Night 09/04/2021": [
+        1630713325527,
+        1630718704999
+      ],
+      "Professional Development Night 09/10/2021": [
+        1630972754285,
+        1630978240399,
+        1630978243981,
+        1630978253009,
+        1630978273192,
+        1630978309396,
+        1631067574981,
+        1631070882252,
+        1631145640199,
+        1631148625154,
+        1631148765801,
+        1631152018746,
+        1631152019871,
+        1631156221316,
+        1631231894874,
+        1631232632134
+      ],
+      "test 09/10/2021": [
+        104399000,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631235600000,
+        1631235476790
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631318351908,
+        1631322189041,
+        1631322192226,
+        1631322228397,
+        1631322230466,
+        1631330145999,
+        1631330148721,
+        1631330151194,
+        1631330155950,
+        1631330158203,
+        1631330163101,
+        1631330474587
+      ]
+    }
+  },
+  "214541828895145984": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "bee"
+    ],
+    "attendance": {
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614906026126,
+        1614911250064
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321570489,
+        1617325211760
+      ]
+    }
+  },
+  "530212093769678858": {
+    "nicknames": [
+      "Vincente B"
+    ],
+    "usernames": [
+      "Vinny"
+    ],
+    "attendance": {
+      "A Gentle Introduction to MATLAB 03/05/2021": [
+        1614908124632,
+        1614908463694
+      ]
+    }
+  },
+  "758403381093597185": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Ben Twomey"
+    ],
+    "attendance": {
+      "Professional Development Night 03/09/2021": [
+        1615251093267,
+        1615251170270,
+        1615251174549,
+        1615252009657,
+        1615252012457,
+        1615254891155
+      ]
+    }
+  },
+  "769982433591820349": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "El'V_33"
+    ],
+    "attendance": {
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615425177516,
+        1615426971398,
+        1615429749386,
+        1615433326031
+      ]
+    }
+  },
+  "439609404632072213": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "bobb"
+    ],
+    "attendance": {
+      "Workshop 4: Android Studio, reviewing the basics and building a simple surface view camera app 03/11/2021": [
+        1615429127693,
+        1615429169138
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620262427484,
+        1620262808068
+      ]
+    }
+  },
+  "429346002529550347": {
+    "nicknames": [
+      "Michael Sollazzo"
+    ],
+    "usernames": [
+      "sollazzo08"
+    ],
+    "attendance": {
+      "Professional Development Night 03/16/2021": [
+        1615852859447,
+        1615857107961
+      ]
+    }
+  },
+  "153637286867632128": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Kirby"
+    ],
+    "attendance": {
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615939218847,
+        1615941609196
+      ]
+    }
+  },
+  "254768058231554049": {
+    "nicknames": [
+      "Jivan"
+    ],
+    "usernames": [
+      "JIVANDABEAST"
+    ],
+    "attendance": {
+      "CDO Collaboration and SA Cyber Week Admin Meeting 03/17/2021": [
+        1615940332152,
+        1615941610188
+      ]
+    }
+  },
+  "224552342438150144": {
+    "nicknames": [
+      "Dan Yee",
+      "Dan Y"
+    ],
+    "usernames": [
+      "DabbyDann"
+    ],
+    "attendance": {
+      "Darknet Diaries Watch Party 03/19/2021": [
+        1616112118075,
+        1616133667555
+      ],
+      "Intro to Quantum Computing 03/25/2021": [
+        1616637383598,
+        1616640074048
+      ],
+      "Side Project Development Night 03/27/2021": [
+        1616803972667,
+        1616808899682
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321521948,
+        1617326669861
+      ],
+      "Side Project Development Night 04/03/2021": [
+        1617414585938,
+        1617420894295
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619048019125,
+        1619048020736,
+        1619049724903,
+        1619051368589
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619137558128,
+        1619148074067
+      ],
+      "Side Project Development Night 04/24/2021": [
+        1619224677937,
+        1619234296394
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740475604,
+        1619748633381
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620086081379,
+        1620088641587
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259820290,
+        1620261141542
+      ],
+      "Research Talk 05/07/2021": [
+        1620345733208,
+        1620350841463
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620691340836,
+        1620700292520,
+        1620702528551,
+        1620702552374
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621388016678
+      ],
+      "Professional Development Night 06/15/2021": [
+        1623715481023,
+        1623726302431
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630111154594,
+        1630111184978,
+        1630115853491,
+        1630115896723,
+        1630117109243,
+        1630120359756
+      ],
+      "Side Project Development Night 09/04/2021": [
+        1630717977259,
+        1630718144893
+      ],
+      "Professional Development Night 09/10/2021": [
+        1631067643905,
+        1631069547529,
+        1631145669775,
+        1631153414070,
+        1631153547349,
+        1631156303120
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631318427358,
+        1631327961737,
+        1631328768781,
+        1631331239219
+      ]
+    }
+  },
+  "155453598552162304": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "EN"
+    ],
+    "attendance": {
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630208548,
+        1616634066653
+      ]
+    }
+  },
+  "379005138913722378": {
+    "nicknames": [
+      "Max Solomon"
+    ],
+    "usernames": [
+      "max."
+    ],
+    "attendance": {
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630371997,
+        1616635082244
+      ],
+      "Officers Meeting 03/31/2021": [
+        1617150017361,
+        1617155948984
+      ],
+      "April 1st Extravaganza 04/02/2021": [
+        1617321537608,
+        1617328925025
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617927225077,
+        1617933334284
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049679326,
+        1619053368669
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619135997272,
+        1619140490028
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259219226,
+        1620267058501
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630116739536,
+        1630116782756,
+        1630116783642,
+        1630120343016
+      ],
+      "Professional Development Night 09/10/2021": [
+        1630972768546,
+        1630978239540
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631318499946,
+        1631331239219
+      ]
+    }
+  },
+  "685320601048842331": {
+    "nicknames": [
+      "Luna Dagci"
+    ],
+    "usernames": [
+      "dolnuea"
+    ],
+    "attendance": {
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630409645,
+        1616635070635
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617926529915,
+        1617933283694
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619741295787,
+        1619743263370
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259202714,
+        1620266457714
+      ]
+    }
+  },
+  "724918214739492915": {
+    "nicknames": [
+      "Dan"
+    ],
+    "usernames": [
+      "Daniel_"
+    ],
+    "attendance": {
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630454192,
+        1616635074018
+      ],
+      "Intro to REST APIs 04/09/2021": [
+        1617932941657,
+        1617933284510
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620258456448,
+        1620258460384,
+        1620259047933,
+        1620265699975
+      ],
+      "Research Talk 05/07/2021": [
+        1620346048188,
+        1620346438092
+      ]
+    }
+  },
+  "239862027277828097": {
+    "nicknames": [
+      "Bryan Ramsaran"
+    ],
+    "usernames": [
+      "Bryan25"
+    ],
+    "attendance": {
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630486317,
+        1616630847611
+      ]
+    }
+  },
+  "235108232459190273": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "RazzleDazzle"
+    ],
+    "attendance": {
+      "Intro to Quantum Computing 03/25/2021": [
+        1616630495576,
+        1616632142853,
+        1616632145349,
+        1616632778098
+      ]
+    }
+  },
+  "234395307759108106": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Groovy"
+    ],
+    "attendance": {
+      "April 1st Extravaganza 04/02/2021": [
+        1617321606856,
+        1617321645884
+      ],
+      "Side Project Development Night 08/28/2021": [
+        1630105200000,
+        1630109679454
+      ]
+    }
+  },
+  "610596211228934144": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "BrandonC"
+    ],
+    "attendance": {
+      "April 1st Extravaganza 04/02/2021": [
+        1617321657925,
+        1617325278119
+      ],
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618444905228,
+        1618447155300
+      ],
+      "Introduction to Go 04/16/2021": [
+        1618531444856,
+        1618534346238
+      ],
+      "Software Design Patterns 04/23/2021": [
+        1619136079244,
+        1619138569896
+      ]
+    }
+  },
+  "751480253976936590": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Anya Ross"
+    ],
+    "attendance": {
+      "April 1st Extravaganza 04/02/2021": [
+        1617321726694,
+        1617323611499
+      ]
+    }
+  },
+  "829093177964363827": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Manjusha"
+    ],
+    "attendance": {
+      "Intro to REST APIs 04/09/2021": [
+        1617926495021,
+        1617927636559
+      ]
+    }
+  },
+  "752621660947087461": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Maaz"
+    ],
+    "attendance": {
+      "How Far Is Too Far? | The Age of A.I. 04/15/2021": [
+        1618446474147,
+        1618446484572
+      ]
+    }
+  },
+  "521106975887458317": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Wolfpack"
+    ],
+    "attendance": {
+      "Introduction to Go 04/16/2021": [
+        1618531438620,
+        1618531724864
+      ]
+    }
+  },
+  "724682279246364692": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Sharin K"
+    ],
+    "attendance": {
+      "Introduction to Go 04/16/2021": [
+        1618531789609,
+        1618535413371
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619050292547,
+        1619050323071,
+        1619050330641,
+        1619053370137
+      ],
+      "Research Talk 05/07/2021": [
+        1620347199977,
+        1620350838717
+      ]
+    }
+  },
+  "532624759733747713": {
+    "nicknames": [
+      "Nick Green"
+    ],
+    "usernames": [
+      "Green"
+    ],
+    "attendance": {
+      "Introduction to Go 04/16/2021": [
+        1618532195972,
+        1618535415776
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259899806,
+        1620267057586
+      ]
+    }
+  },
+  "831232340083736586": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "sadia"
+    ],
+    "attendance": {
+      "Introduction to Go 04/16/2021": [
+        1618533112064,
+        1618533287425
+      ],
+      "Introduction to Machine Learning 04/22/2021": [
+        1619049694088,
+        1619049782200
+      ]
+    }
+  },
+  "436603475934314497": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "ezpz"
+    ],
+    "attendance": {
+      "Professional Development Night 04/20/2021": [
+        1618877844413,
+        1618877912524,
+        1618880826612,
+        1618881644269
+      ]
+    }
+  },
+  "806346481627168768": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Miao Wang"
+    ],
+    "attendance": {
+      "Professional Development Night 04/20/2021": [
+        1618883988522,
+        1618884029676,
+        1618884033374,
+        1618884041953
+      ]
+    }
+  },
+  "424319836005597184": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "BummySage"
+    ],
+    "attendance": {
+      "Introduction to Machine Learning 04/22/2021": [
+        1619050134195,
+        1619051015286
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619741800927,
+        1619741946039
+      ]
+    }
+  },
+  "272477922785230848": {
+    "nicknames": [
+      "Michael Raffel"
+    ],
+    "usernames": [
+      "SeveralThousandBees"
+    ],
+    "attendance": {
+      "Software Design Patterns 04/23/2021": [
+        1619136004378,
+        1619140491442
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740826768,
+        1619740863681,
+        1619740873968,
+        1619746652641
+      ]
+    }
+  },
+  "293087325657890817": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Send Me Noodles",
+      "Raymond Ren"
+    ],
+    "attendance": {
+      "Software Design Patterns 04/23/2021": [
+        1619140401155,
+        1619140489582,
+        1619142727003,
+        1619148074067
+      ],
+      "Side Project Development Night 04/24/2021": [
+        1619226312578,
+        1619234296394
+      ],
+      "Intro to Discord Bots 04/30/2021": [
+        1619740721146,
+        1619743512934,
+        1619743519675,
+        1619748633381
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620086377918,
+        1620092992668
+      ],
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620259496938,
+        1620266314775
+      ],
+      "Research Talk 05/07/2021": [
+        1620345996762,
+        1620350839082
+      ],
+      "Side Project Development Night 05/08/2021": [
+        1620434228554,
+        1620440747460
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620695298023,
+        1620704544810
+      ],
+      "Officer Meeting 05/19/2021": [
+        104399000,
+        1621386040132,
+        1621386454049,
+        1621388016678
+      ],
+      "Professional Development Night 06/15/2021": [
+        1623715430745,
+        1623715665848,
+        1623715671199,
+        1623719352807
+      ],
+      "Professional Development Night 09/10/2021": [
+        1631147516083,
+        1631147589133,
+        1631147686792,
+        1631149104096
+      ]
+    }
+  },
+  "391629337033703429": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "SamBucks™"
+    ],
+    "attendance": {
+      "Intro to Discord Bots 04/30/2021": [
+        1619743245941,
+        1619744341605
+      ],
+      "Professional Development Night 05/04/2021": [
+        1620086350650,
+        1620092994344
+      ]
+    }
+  },
+  "747652558880899093": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "daveygdaves"
+    ],
+    "attendance": {
+      "Intro to Discord Bots 04/30/2021": [
+        1619748489781,
+        1619748516194
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620694046455,
+        1620694073880
+      ]
+    }
+  },
+  "221034466108375041": {
+    "nicknames": [
+      "Alexu"
+    ],
+    "usernames": [
+      "Pugdude101"
+    ],
+    "attendance": {
+      "Professional Development Night 05/04/2021": [
+        1620088675053,
+        1620093000849
+      ],
+      "Professional Development Night 05/11/2021": [
+        1620695790659,
+        1620697857109
+      ]
+    }
+  },
+  "698934077247717418": {
+    "nicknames": [
+      "Kev"
+    ],
+    "usernames": [
+      "k_1543"
+    ],
+    "attendance": {
+      "Introduction to Machine Learning with TensorFlow 05/06/2021": [
+        1620260640850,
+        1620260726399
+      ]
+    }
+  },
+  "245725377354399744": {
+    "nicknames": [
+      "Sen. Tim Goldsmith"
+    ],
+    "usernames": [
+      "Meerkat"
+    ],
+    "attendance": {
+      "Professional Development Night 05/11/2021": [
+        1620697821995,
+        1620698635264
+      ]
+    }
+  },
+  "758376213801861170": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "adam();"
+    ],
+    "attendance": {
+      "Side Project Development Night 08/28/2021": [
+        1630105200000,
+        1630117414052,
+        1630117421987,
+        1630120341736
+      ],
+      "Side Project Development Night 09/04/2021": [
+        1630715228980,
+        1630715961012,
+        1630715981025,
+        1630717450053,
+        1630717464847,
+        1630718701180
+      ],
+      "Professional Development Night 09/10/2021": [
+        1631232139410,
+        1631232632134
+      ],
+      "test 09/10/2021": [
+        104399000,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631235600000,
+        1631235238006
+      ]
+    }
+  },
+  "403308826696089600": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "legend"
+    ],
+    "attendance": {
+      "Side Project Development Night 08/28/2021": [
+        1630115100493,
+        1630116700912
+      ]
+    }
+  },
+  "809178878567383050": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Kanyinsola90"
+    ],
+    "attendance": {
+      "Side Project Development Night 08/28/2021": [
+        1630116466139,
+        1630116848923
+      ]
+    }
+  },
+  "364475724154798080": {
+    "nicknames": [
+      "Haze S."
+    ],
+    "usernames": [
+      "Z3R0"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/04/2021": [
+        1630713618117,
+        1630715898488
+      ]
+    }
+  },
+  "641748126159470594": {
+    "nicknames": [
+      "Shane Checkley"
+    ],
+    "usernames": [
+      "shaneapollo"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/04/2021": [
+        1630713637980,
+        1630717429192
+      ]
+    }
+  },
+  "406567979145494562": {
+    "nicknames": [
+      "Taha R"
+    ],
+    "usernames": [
+      "Shock95"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/04/2021": [
+        1630713642555,
+        1630718701962
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631318494552,
+        1631322062980,
+        1631322270802,
+        1631323459848
+      ]
+    }
+  },
+  "625495618420473886": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Reckless"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/04/2021": [
+        1630713679217,
+        1630714155133,
+        1630714344901,
+        1630714526085
+      ],
+      "Professional Development Night 09/10/2021": [
+        1630972996439,
+        1630973292267
+      ]
+    }
+  },
+  "339394463422218241": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "MOMO"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/04/2021": [
+        1630713684951,
+        1630718700292
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631319304134,
+        1631331239219
+      ]
+    }
+  },
+  "822700804976279553": {
+    "nicknames": [
+      "Sophie"
+    ],
+    "usernames": [
+      "verbatim"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/04/2021": [
+        1630713810155,
+        1630715352780
+      ],
+      "test 09/10/2021": [
+        1631232698701,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631235600000,
+        1631232824023
+      ]
+    }
+  },
+  "250746574714568704": {
+    "nicknames": [
+      "Karl"
+    ],
+    "usernames": [
+      "Slicebread"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/04/2021": [
+        1630714124857,
+        1630715340253,
+        1630715345707,
+        1630718312890
+      ]
+    }
+  },
+  "750775605376843867": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "ThatEngineer"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/04/2021": [
+        1630714384311,
+        1630714534281
+      ]
+    }
+  },
+  "166246105502318592": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Abhrajit_Ghosh"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/04/2021": [
+        1630714446394,
+        1630718725984
+      ]
+    }
+  },
+  "320336267822759946": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Builder Bros"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/04/2021": [
+        1630714486435,
+        1630718720038
+      ]
+    }
+  },
+  "213850492630073344": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Nicholai518"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/04/2021": [
+        1630714696498,
+        1630715839547
+      ]
+    }
+  },
+  "191339412481638400": {
+    "nicknames": [
+      "Matthew Reid"
+    ],
+    "usernames": [
+      "Bombodongo"
+    ],
+    "attendance": {
+      "Professional Development Night 09/10/2021": [
+        1630972856693,
+        1630976075478,
+        1631232158432,
+        1631232169617,
+        1631232213655,
+        1631232632134
+      ],
+      "test 09/10/2021": [
+        104399000,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631235600000,
+        1631235473336
+      ]
+    }
+  },
+  "739287894308552715": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "millies456"
+    ],
+    "attendance": {
+      "Professional Development Night 09/10/2021": [
+        1630973349970,
+        1630973762006,
+        1630974021139,
+        1630974504429,
+        1630974879041,
+        1630975085553,
+        1630976862316,
+        1630979662107,
+        1630979668084,
+        1630982364888,
+        1630982370074,
+        1630984687534
+      ]
+    }
+  },
+  "665019659250302976": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Liuhuan"
+    ],
+    "attendance": {
+      "Professional Development Night 09/10/2021": [
+        1631061412700,
+        1631061415301
+      ]
+    }
+  },
+  "734317234872123513": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "daddad"
+    ],
+    "attendance": {
+      "Professional Development Night 09/10/2021": [
+        1631066815763,
+        1631067968634,
+        1631070975491,
+        1631071013299
+      ]
+    }
+  },
+  "234444176882794496": {
+    "nicknames": [
+      "RD"
+    ],
+    "usernames": [
+      "777 Rilex44 777"
+    ],
+    "attendance": {
+      "Professional Development Night 09/10/2021": [
+        1631066829228,
+        1631066906898,
+        1631066921938,
+        1631071015097
+      ]
+    }
+  },
+  "541467657447276556": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "lob"
+    ],
+    "attendance": {
+      "Professional Development Night 09/10/2021": [
+        1631066921191,
+        1631071014673
+      ]
+    }
+  },
+  "195560762670972928": {
+    "nicknames": [
+      "Daniel Wang"
+    ],
+    "usernames": [
+      "Ebo"
+    ],
+    "attendance": {
+      "Professional Development Night 09/10/2021": [
+        1631232007499,
+        1631232632134
+      ],
+      "test 09/10/2021": [
+        104399000,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631235600000,
+        1631235477442
+      ]
+    }
+  },
+  "747522180853792820": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "jill"
+    ],
+    "attendance": {
+      "Professional Development Night 09/10/2021": [
+        1631232021581,
+        1631232632134
+      ],
+      "test 09/10/2021": [
+        104399000,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631234366605,
+        1631234753689
+      ],
+      "Side Project Development Night 09/11/2021": [
+        1631319233428,
+        1631321754610
+      ]
+    }
+  },
+  "809463117699612674": {
+    "nicknames": [
+      null
+    ],
+    "usernames": [
+      "Que"
+    ],
+    "attendance": {
+      "Professional Development Night 09/10/2021": [
+        1631232143865,
+        1631232632134
+      ],
+      "test 09/10/2021": [
+        104399000,
+        1631232731514
+      ],
+      "Machine Learning Logisitic Regression Workshop 09/10/2021": [
+        1631235600000,
+        1631235485309
+      ]
+    }
+  },
+  "412063358917935104": {
+    "nicknames": [
+      "Micheal"
+    ],
+    "usernames": [
+      "mikeisone"
+    ],
+    "attendance": {
+      "Side Project Development Night 09/11/2021": [
+        1631323125553,
+        1631323153446,
+        1631323192038,
+        1631323239050
+      ]
+    }
+  }
+}
