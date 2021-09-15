@@ -40,7 +40,7 @@ Simply type !get in the bot-spam channel and the bot will send the attendance to
 ### Using `!add`
 By typing `!add` and the user ID of a member, you can temporarily whitelist the user until the bot logs off. Whitelisting a user means that they can use the bot's commands. 
 
-### start
+### `start`
 
 ## How to Contribute
 If you'd like to contribute, please open an issue in this repository, fork this project, make a new branch on your fork, and then make a pull request. Or, ask the current Secretary for access. 
