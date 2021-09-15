@@ -14,7 +14,8 @@ Since it's a 24/7 bot you shouldn't have to worry about starting the bot. But, i
 - If you want to stop the bot: 
   - ```pm2 stop <id>``` (if this is the only thing running with pm2 then you'll probably use 0 for the id, so ```pm2 stop 0```)
 - If you want to look at logs: 
-  - ```pm2 logs <id>``` (again, proabably will use 0 for id)
+  - ```pm2 logs <id>``` (again, proabably will use 0 for id).
+
 pm2 just runs the bot as a background process, so that way you still have control over the file system while the bot is running. 
 
 ### Using !save
