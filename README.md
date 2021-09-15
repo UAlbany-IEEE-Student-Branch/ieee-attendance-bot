@@ -18,6 +18,8 @@ Since it's a 24/7 bot you shouldn't have to worry about starting the bot. But, i
 
 pm2 just runs the bot as a background process, so that way you still have control over the file system while the bot is running. 
 
+When you're using the bot on the Discord server, you'll want to use `!start` before the beginning of an event and then `!save` after it's over. If you forget to use `!start` before the beginning, you can specify a starting timestamp ([see Using `!start`](#Using `!start`))
+
 ### Using `!save`
 When you use !save to save the attendace, the bot expects you to also include a name for the event. 
 - For example: `!save Monday Coding Night`. 
@@ -47,9 +49,9 @@ If you'd like to contribute, please open an issue in this repository, fork this 
 - ~~have the bot log everyone who is already in certain voice channels be added to the attendance in case the bots starts late~~
 - ~~log time on bot login if there are users in a voice channel and bot logged in late for event~~
 - ~~let the start command take an optional parameter that is a time that represents the start of the meeting in case the bot starts late~~
-- make a command that will show a preview of the attendance
 - ~~Use the user id instead of the nickname/username in case the user switches their username or nickname (would also need to make sure that discord js can get a user's nickname/username based on their id)~~
 - ~~switch from heroku to aws, use aws to hold the attendance file and bot~~
 - ~~add a command to the bot that dms the attendance to the user who queried it~~
 - ~~make it so that the bot commands only work in bot spam~~
 - add logs and timestamps to make it easier to investigate errors
+- make a command that will show a preview of the attendance
