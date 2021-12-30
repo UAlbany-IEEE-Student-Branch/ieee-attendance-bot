@@ -237,7 +237,7 @@ function handleAdd(message, content) {
             message.channel.send(`${userId} didn't pass the vibe check.`);
         }
     } else {
-        message.channel.send('You need to give a user ID as a parameter.');
+        message.channel.send('You need to give a user ID as a parameter.\nUsage: !add <user ID>');
     }
 }
 
@@ -294,7 +294,7 @@ function handleCommand(message, command, content) {
             handleAdd(message, content);
             break;
         default:
-            handleInvalidCommand(message);
+            // handleInvalidCommand(message);
             break;
     }
 }
