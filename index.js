@@ -24,6 +24,13 @@ const START_COMMAND = '!start';
 const GET_COMMAND = '!get';
 const ADD_COMMAND = '!add';
 
+const BOT_COMMANDS = [
+    SAVE_COMMAND,
+    START_COMMAND, 
+    GET_COMMAND, 
+    ADD_COMMAND,
+];
+
 // users that the bot listens to, outside of users who have the EBoard role
 let authorizedUsers = ['346836689529995274'];
 
@@ -293,9 +300,6 @@ function handleCommand(message, command, content) {
         case ADD_COMMAND:
             handleAdd(message, content);
             break;
-        default:
-            // handleInvalidCommand(message);
-            break;
     }
 }
 
@@ -305,6 +309,16 @@ client.on('message', message => {
     if (message.author.bot) return;
 
     const content = message.content;
+
+    // don't continue if the message content doesn't contain any of the commands
+    let shouldIgnoreMessage = true;
+    for (const botCommand of BOT_COMMANDS) {
+        if (content.includes(botCommand)) {
+            shouldIgnoreMessage = false;
+            break;
+        }
+    }
+    if (shouldIgnoreMessage) return;
 
     // make sure the message is in the bot-spam channel and 
     // that the bot reacts to the proper people 
