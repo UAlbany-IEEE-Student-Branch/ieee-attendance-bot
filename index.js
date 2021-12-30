@@ -18,13 +18,16 @@ const listenedVoiceChannels = [
     'Workshop',
 ];
 
-// users that the bot listens to
-let whitelistedUsers = [
-    "346836689529995274",
-    '587621683448512521', 
-    '744893752505663534', 
-    '419203179322933249',
-];
+// commands that the bot responds to
+const SAVE_COMMAND = '!save';
+const START_COMMAND = '!start';
+const GET_COMMAND = '!get';
+const ADD_COMMAND = '!add';
+
+// users that the bot listens to, outside of users who have the EBoard role
+let whitelistedUsers = [];
+
+const EBOARD_ROLE_ID = '685303937611333648';
 
 // text channels that the bot will listen to 
 const whitelistedTextChannels = ["685315837015752723"];
@@ -50,8 +53,9 @@ function addMemberToParticipants(member, timestamp) {
         const userDetail = {
             nickname: nickname,
             username: username,
-            timestamps: [timestamp]
-        }
+            timestamps: [timestamp],
+        };
+
         participants.set(userId, userDetail);
     }
 }
@@ -60,17 +64,17 @@ function sendAttendanceToMessageAuthor(message) {
     message.author.send('Here you go, buddy: ', {
         files: [
             './attendance.json'
-        ]
+        ],
     });
     message.channel.send(`Attendance sent to ${message.author.username}`);
 }
 
-function handleSave(message, command) {
+function handleSave(message, content) {
 
     isListening = false;
         
     // make sure there is an event name with the command
-    if (command.trim().length > 5) {
+    if (content.trim().length > 5) {
         
         const today = new Date();
         const dd = String(today.getDate()).padStart(2, '0');
@@ -79,7 +83,7 @@ function handleSave(message, command) {
         const eventDate = mm + '/' + dd + '/' + yyyy;
 
         // take the name from the user's input but append the date
-        const eventName = command.substring(5).trim() + ' ' + eventDate;
+        const eventName = content.substring(5).trim() + ' ' + eventDate;
 
         /* 
          * Preprocessing: if a user only has an odd number of time stamps,
@@ -157,7 +161,12 @@ function handleSave(message, command) {
     }
 }
 
-function handleStart(message, command) {
+function handleStart(message, content) {
+
+    if (isListening) {
+        message.channel.send("Sorry, I'm already listening!");
+        return;
+    }
 
     isListening = true;
 
@@ -165,10 +174,10 @@ function handleStart(message, command) {
     let commandValid = true;
 
     let timestamp;
-    if (command.trim().length > 6) {
+    if (content.trim().length > 6) {
 
         // if the user includes the starting time, use that for the timestamp
-        timestamp = Date.parse(command.substring(6).trim());
+        timestamp = Date.parse(content.substring(6).trim());
 
         // just do a simple error check/input check, dunno how to make this more robust
         if (isNaN(timestamp) || timestamp < 0) {
@@ -214,10 +223,10 @@ function handleGet(message) {
     }
 }
 
-function addWhitelistedUser(message, command) {
+function addUserToWhiteList(message, content) {
     const pattern = /^\d+$/;
-    if (command.trim().length > 4) {
-        const userId = command.substring(4).trim();
+    if (content.trim().length > 4) {
+        const userId = content.substring(4).trim();
         if (pattern.test(userId)) {
             whitelistedUsers.push(userId);
             message.channel.send(`${userId} can now use the bot.`);
@@ -227,6 +236,10 @@ function addWhitelistedUser(message, command) {
     } else {
         message.channel.send('You need to give a user ID as a parameter.');
     }
+}
+
+function handleInvalidCommand(message) {
+    message.channel.send('Invalid comand, dummy!');
 }
 
 client.once('ready', () => {
@@ -263,47 +276,38 @@ client.on('voiceStateUpdate', (oldState, newState) => {
     }
 });
 
+function handleCommand(message, command, content) {
+    switch (command) {
+        case SAVE_COMMAND:
+            handleSave(message, content);
+            break;
+        case START_COMMAND:
+            handleStart(message, content);
+            break;
+        case GET_COMMAND:
+            handleGet(message);
+            break;
+        case ADD_COMMAND:
+            addUserToWhiteList(message, content);
+            break;
+        default:
+            handleInvalidCommand(message);
+            break;
+    }
+}
+
 client.on('message', message => {
-    const command = message.content;
+    const content = message.content;
 
     // make sure the message is in the bot-spam channel and 
     // that the bot reacts to the proper people 
-    if (whitelistedTextChannels.includes(message.channel.id)) {
-
-        if (command.includes('!save')) {
-            if (whitelistedUsers.includes(message.author.id))
-                handleSave(message, command);
-            else 
-                message.channel.send('You do not have privilege to do that.');
-        }
-
-        if (command.includes('!start')) {
-
-            if (whitelistedUsers.includes(message.author.id)) {
-                if (!isListening) {
-                    handleStart(message, command);
-                } else {
-                    message.channel.send("Sorry, I'm already listening!");
-                }     
-            } else {
-                message.channel.send('You do not have privilege to do that.');
-            }  
-        }
-
-        if (command.includes('!get')) {
-            if (whitelistedUsers.includes(message.author.id))
-                handleGet(message);
-            else 
-                message.channel.send('You do not have privilege to do that.');
-        }
-
-        if (command.includes('!add')) {
-            if (whitelistedUsers.includes(message.author.id))
-                addWhitelistedUser(message, command);
-            else 
-                message.channel.send('You do not have privilege to do that.');
-        }
-    } 
+    if (whitelistedTextChannels.includes(message.channel.id) && (message.member.roles.cache.some(role => role.id === EBOARD_ROLE_ID) || whitelistedUsers.includes(message.author.id))) {
+        const tokens = content.split(' ');
+        const command = tokens[0];
+        handleCommand(message, command, content);
+    } else {
+        message.channel.send('You do not have privilege to do that.');
+    }
 });
 
 client.login(token);
