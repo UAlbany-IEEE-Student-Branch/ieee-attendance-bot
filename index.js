@@ -25,12 +25,12 @@ const GET_COMMAND = '!get';
 const ADD_COMMAND = '!add';
 
 // users that the bot listens to, outside of users who have the EBoard role
-let whitelistedUsers = [];
+let authorizedUsers = [];
 
 const EBOARD_ROLE_ID = '685303937611333648';
 
 // text channels that the bot will listen to 
-const whitelistedTextChannels = ["685315837015752723"];
+const authorizedTextChannels = ["685315837015752723"];
 
 // represents if the bot is listening for attendance
 let isListening = false;
@@ -223,12 +223,12 @@ function handleGet(message) {
     }
 }
 
-function addUserToWhiteList(message, content) {
+function handleAdd(message, content) {
     const pattern = /^\d+$/;
     if (content.trim().length > 4) {
         const userId = content.substring(4).trim();
         if (pattern.test(userId)) {
-            whitelistedUsers.push(userId);
+            authorizedUsers.push(userId);
             message.channel.send(`${userId} can now use the bot.`);
         } else {
             message.channel.send(`${userId} didn't pass the vibe check.`);
@@ -288,7 +288,7 @@ function handleCommand(message, command, content) {
             handleGet(message);
             break;
         case ADD_COMMAND:
-            addUserToWhiteList(message, content);
+            handleAdd(message, content);
             break;
         default:
             handleInvalidCommand(message);
@@ -301,7 +301,7 @@ client.on('message', message => {
 
     // make sure the message is in the bot-spam channel and 
     // that the bot reacts to the proper people 
-    if (whitelistedTextChannels.includes(message.channel.id) && (message.member.roles.cache.some(role => role.id === EBOARD_ROLE_ID) || whitelistedUsers.includes(message.author.id))) {
+    if (authorizedTextChannels.includes(message.channel.id) && (message.member.roles.cache.some(role => role.id === EBOARD_ROLE_ID) || authorizedUsers.includes(message.author.id))) {
         const tokens = content.split(' ');
         const command = tokens[0];
         handleCommand(message, command, content);
