@@ -25,7 +25,7 @@ const GET_COMMAND = '!get';
 const ADD_COMMAND = '!add';
 
 // users that the bot listens to, outside of users who have the EBoard role
-let authorizedUsers = [];
+let authorizedUsers = ['346836689529995274'];
 
 const EBOARD_ROLE_ID = '685303937611333648';
 
@@ -71,7 +71,10 @@ function sendAttendanceToMessageAuthor(message) {
 
 function handleSave(message, content) {
 
-    isListening = false;
+    if (!isListening) {
+        message.channel.send('I\'m not listening lalalalalalalala');
+        return;
+    }
         
     // make sure there is an event name with the command
     if (content.trim().length > 5) {
@@ -155,6 +158,7 @@ function handleSave(message, content) {
 
         message.channel.send('Data written to file.');
 
+        isListening = false;
         sendAttendanceToMessageAuthor(message);
     } else {
         message.channel.send('Please retry. Make sure to include an event title when you use save.\nUsage: !save <event title>');
@@ -167,8 +171,6 @@ function handleStart(message, content) {
         message.channel.send("Sorry, I'm already listening!");
         return;
     }
-
-    isListening = true;
 
     // just represents whether the command was ok or not
     let commandValid = true;
@@ -211,6 +213,7 @@ function handleStart(message, content) {
             }
         }
 
+        isListening = true;
         message.channel.send('Listening for attendance...');
     }
 }
@@ -297,6 +300,10 @@ function handleCommand(message, command, content) {
 }
 
 client.on('message', message => {
+
+    // do not respond to bots
+    if (message.author.bot) return;
+
     const content = message.content;
 
     // make sure the message is in the bot-spam channel and 
